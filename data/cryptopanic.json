@@ -1,713 +1,205 @@
-{
-    "count": 200,
-    "next": "https://cryptopanic.com/api/v1/posts/?auth_token=c203c47a873a45549a6efcc8df935a5b22834953&page=2",
-    "previous": null,
-    "results": [
-        {
-            "kind": "news",
-            "domain": "finbold.com",
-            "source": {
-                "title": "Finbold",
-                "region": "en",
-                "domain": "finbold.com",
-                "path": null
-            },
-            "title": "Supreme Court supports Ripple\u2019s argument in SEC case, backs law adaptation",
-            "published_at": "2023-05-20T09:27:24Z",
-            "slug": "Supreme-Court-supports-Ripples-argument-in-SEC-case-backs-law-adaptation",
-            "currencies": [
-                {
-                    "code": "XRP",
-                    "title": "XRP",
-                    "slug": "ripple",
-                    "url": "https://cryptopanic.com/news/ripple/"
-                }
-            ],
-            "id": 18388612,
-            "url": "https://cryptopanic.com/news/18388612/Supreme-Court-supports-Ripples-argument-in-SEC-case-backs-law-adaptation",
-            "created_at": "2023-05-20T09:27:24Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "bitcoinist.com",
-            "source": {
-                "title": "Bitcoinist",
-                "region": "en",
-                "domain": "bitcoinist.com",
-                "path": null
-            },
-            "title": "European Commission Approves New Tax Directive For Crypto Companies",
-            "published_at": "2023-05-20T09:21:50Z",
-            "slug": "European-Commission-Approves-New-Tax-Directive-For-Crypto-Companies",
-            "id": 18388597,
-            "url": "https://cryptopanic.com/news/18388597/European-Commission-Approves-New-Tax-Directive-For-Crypto-Companies",
-            "created_at": "2023-05-20T09:21:50Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cryptonews.com",
-            "source": {
-                "title": "Cryptonews",
-                "region": "en",
-                "domain": "cryptonews.com",
-                "path": null
-            },
-            "title": "Bitcoin Price Prediction as BTC Holds At $26,800 \u2013 Is $30,000 the Next BTC Target?",
-            "published_at": "2023-05-20T09:19:00Z",
-            "slug": "Bitcoin-Price-Prediction-as-BTC-Holds-At-26800-Is-30000-the-Next-BTC-Target",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                }
-            ],
-            "id": 18388611,
-            "url": "https://cryptopanic.com/news/18388611/Bitcoin-Price-Prediction-as-BTC-Holds-At-26800-Is-30000-the-Next-BTC-Target",
-            "created_at": "2023-05-20T09:19:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "dailyhodl.com",
-            "source": {
-                "title": "The Daily Hodl",
-                "region": "en",
-                "domain": "dailyhodl.com",
-                "path": null
-            },
-            "title": "Rich Dad Poor Dad Author Predicts \u2018Crash Landing\u2019 Ahead, Says Bitcoin and Precious Metals Are Best Insurance",
-            "published_at": "2023-05-20T09:15:39Z",
-            "slug": "Rich-Dad-Poor-Dad-Author-Predicts-Crash-Landing-Ahead-Says-Bitcoin-and-Precious-Metals-Are-Best-Insurance",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                }
-            ],
-            "id": 18388463,
-            "url": "https://cryptopanic.com/news/18388463/Rich-Dad-Poor-Dad-Author-Predicts-Crash-Landing-Ahead-Says-Bitcoin-and-Precious-Metals-Are-Best-Insurance",
-            "created_at": "2023-05-20T09:15:39Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cryptoglobe.com",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 1,
-                "comments": 0
-            },
-            "source": {
-                "title": "CryptoGlobe",
-                "region": "en",
-                "domain": "cryptoglobe.com",
-                "path": null
-            },
-            "title": "Reviving the \u201990s: Nintendo Game Boy as the Next Big Crypto Wallet",
-            "published_at": "2023-05-20T08:36:51Z",
-            "slug": "Reviving-the-90s-Nintendo-Game-Boy-as-the-Next-Big-Crypto-Wallet",
-            "id": 18387869,
-            "url": "https://cryptopanic.com/news/18387869/Reviving-the-90s-Nintendo-Game-Boy-as-the-Next-Big-Crypto-Wallet",
-            "created_at": "2023-05-20T08:36:51Z"
-        },
-        {
-            "kind": "news",
-            "domain": "beincrypto.com",
-            "votes": {
-                "negative": 0,
-                "positive": 3,
-                "important": 2,
-                "liked": 3,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "BeInCrypto",
-                "region": "en",
-                "domain": "beincrypto.com",
-                "path": null
-            },
-            "title": "Strike Moves HQ to El Salvador, Expanding Bitcoin Payments to 65 Countries",
-            "published_at": "2023-05-20T08:35:36Z",
-            "slug": "Strike-Moves-HQ-to-El-Salvador-Expanding-Bitcoin-Payments-to-65-Countries",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                }
-            ],
-            "id": 18387641,
-            "url": "https://cryptopanic.com/news/18387641/Strike-Moves-HQ-to-El-Salvador-Expanding-Bitcoin-Payments-to-65-Countries",
-            "created_at": "2023-05-20T08:35:36Z"
-        },
-        {
-            "kind": "news",
-            "domain": "cointelegraph.com",
-            "votes": {
-                "negative": 0,
-                "positive": 1,
-                "important": 1,
-                "liked": 1,
-                "disliked": 1,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CoinTelegraph",
-                "region": "en",
-                "domain": "cointelegraph.com",
-                "path": null
-            },
-            "title": "Instagram to reportedly launch text-based app to rival Twitter",
-            "published_at": "2023-05-20T08:20:00Z",
-            "slug": "Instagram-to-reportedly-launch-text-based-app-to-rival-Twitter",
-            "id": 18387459,
-            "url": "https://cryptopanic.com/news/18387459/Instagram-to-reportedly-launch-text-based-app-to-rival-Twitter",
-            "created_at": "2023-05-20T08:20:00Z"
-        },
-        {
-            "kind": "news",
-            "domain": "u.today",
-            "source": {
-                "title": "U.Today",
-                "region": "en",
-                "domain": "u.today",
-                "path": null
-            },
-            "title": "Dogecoin Creator Names Investments That Are \u2018Less Exciting and Scary\u2019 Than Crypto",
-            "published_at": "2023-05-20T07:13:00Z",
-            "slug": "Dogecoin-Creator-Names-Investments-That-Are-Less-Exciting-and-Scary-Than-Crypto",
-            "currencies": [
-                {
-                    "code": "DOGE",
-                    "title": "Dogecoin",
-                    "slug": "dogecoin",
-                    "url": "https://cryptopanic.com/news/dogecoin/"
-                }
-            ],
-            "id": 18385890,
-            "url": "https://cryptopanic.com/news/18385890/Dogecoin-Creator-Names-Investments-That-Are-Less-Exciting-and-Scary-Than-Crypto",
-            "created_at": "2023-05-20T07:13:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "dailyhodl.com",
-            "source": {
-                "title": "The Daily Hodl",
-                "region": "en",
-                "domain": "dailyhodl.com",
-                "path": null
-            },
-            "title": "Bloomberg Analyst Mike McGlone Warns Bitcoin and Other Crypto Assets Could Crash if This Happens",
-            "published_at": "2023-05-20T07:04:41Z",
-            "slug": "Bloomberg-Analyst-Mike-McGlone-Warns-Bitcoin-and-Other-Crypto-Assets-Could-Crash-if-This-Happens",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                },
-                {
-                    "code": "ETH",
-                    "title": "Ethereum",
-                    "slug": "ethereum",
-                    "url": "https://cryptopanic.com/news/ethereum/"
-                }
-            ],
-            "id": 18385682,
-            "url": "https://cryptopanic.com/news/18385682/Bloomberg-Analyst-Mike-McGlone-Warns-Bitcoin-and-Other-Crypto-Assets-Could-Crash-if-This-Happens",
-            "created_at": "2023-05-20T07:04:41Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "bitcoinist.com",
-            "source": {
-                "title": "Bitcoinist",
-                "region": "en",
-                "domain": "bitcoinist.com",
-                "path": null
-            },
-            "title": "Tether Partners With KriptonMarket To Support USDT Acceptance In Argentina",
-            "published_at": "2023-05-20T07:00:00Z",
-            "slug": "Tether-Partners-With-KriptonMarket-To-Support-USDT-Acceptance-In-Argentina",
-            "currencies": [
-                {
-                    "code": "USDT",
-                    "title": "Tether",
-                    "slug": "tether",
-                    "url": "https://cryptopanic.com/news/tether/"
-                }
-            ],
-            "id": 18385504,
-            "url": "https://cryptopanic.com/news/18385504/Tether-Partners-With-KriptonMarket-To-Support-USDT-Acceptance-In-Argentina",
-            "created_at": "2023-05-20T07:00:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cryptonews.com",
-            "source": {
-                "title": "Cryptonews",
-                "region": "en",
-                "domain": "cryptonews.com",
-                "path": null
-            },
-            "title": "Mantle: BitDAO token will be Mantle after BIP-21 Vote",
-            "published_at": "2023-05-20T06:52:00Z",
-            "slug": "Mantle-BitDAO-token-will-be-Mantle-after-BIP-21-Vote",
-            "currencies": [
-                {
-                    "code": "BIT",
-                    "title": "BitDAO",
-                    "slug": "bitdao",
-                    "url": "https://cryptopanic.com/news/bitdao/"
-                }
-            ],
-            "id": 18385513,
-            "url": "https://cryptopanic.com/news/18385513/Mantle-BitDAO-token-will-be-Mantle-after-BIP-21-Vote",
-            "created_at": "2023-05-20T06:52:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "ambcrypto.com",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 1
-            },
-            "source": {
-                "title": "AMBCrypto",
-                "region": "en",
-                "domain": "ambcrypto.com",
-                "path": null
-            },
-            "title": "Ethereum traders may have to sit tight this weekend as ETH fails to\u2026",
-            "published_at": "2023-05-20T06:30:02Z",
-            "slug": "Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
-            "currencies": [
-                {
-                    "code": "ETH",
-                    "title": "Ethereum",
-                    "slug": "ethereum",
-                    "url": "https://cryptopanic.com/news/ethereum/"
-                }
-            ],
-            "id": 18385096,
-            "url": "https://cryptopanic.com/news/18385096/Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
-            "created_at": "2023-05-20T06:30:02Z"
-        },
-        {
-            "kind": "news",
-            "domain": "cryptopotato.com",
-            "source": {
-                "title": "Feed - Cryptopotato.Com",
-                "region": "en",
-                "domain": "cryptopotato.com",
-                "path": null
-            },
-            "title": "Injective Jumps 20% Weekly, Bitcoin Stalls Below $27K: Weekend Watch",
-            "published_at": "2023-05-20T06:27:33Z",
-            "slug": "Injective-Jumps-20-Weekly-Bitcoin-Stalls-Below-27K-Weekend-Watch",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                },
-                {
-                    "code": "INJ",
-                    "title": "Injective",
-                    "slug": "injective-protocol",
-                    "url": "https://cryptopanic.com/news/injective-protocol/"
-                }
-            ],
-            "id": 18384904,
-            "url": "https://cryptopanic.com/news/18384904/Injective-Jumps-20-Weekly-Bitcoin-Stalls-Below-27K-Weekend-Watch",
-            "created_at": "2023-05-20T06:27:33Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cointelegraph.com",
-            "source": {
-                "title": "CoinTelegraph",
-                "region": "en",
-                "domain": "cointelegraph.com",
-                "path": null
-            },
-            "title": "\u2018Big Short\u2019 author Michael Lewis almost ready to publish book on SBF",
-            "published_at": "2023-05-20T06:04:47Z",
-            "slug": "Big-Short-author-Michael-Lewis-almost-ready-to-publish-book-on-SBF",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                },
-                {
-                    "code": "FTT",
-                    "title": "FTX",
-                    "slug": "ftx-token",
-                    "url": "https://cryptopanic.com/news/ftx-token/"
-                }
-            ],
-            "id": 18384490,
-            "url": "https://cryptopanic.com/news/18384490/Big-Short-author-Michael-Lewis-almost-ready-to-publish-book-on-SBF",
-            "created_at": "2023-05-20T06:04:47Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cointelegraph.com",
-            "votes": {
-                "negative": 1,
-                "positive": 0,
-                "important": 1,
-                "liked": 0,
-                "disliked": 1,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CoinTelegraph",
-                "region": "en",
-                "domain": "cointelegraph.com",
-                "path": null
-            },
-            "title": "Ledger co-founder clarifies \u2018there is no backdoor\u2019 in \u2018Recover\u2019 firmware update",
-            "published_at": "2023-05-20T06:01:00Z",
-            "slug": "Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
-            "id": 18384491,
-            "url": "https://cryptopanic.com/news/18384491/Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
-            "created_at": "2023-05-20T06:01:00Z"
-        },
-        {
-            "kind": "news",
-            "domain": "ambcrypto.com",
-            "votes": {
-                "negative": 1,
-                "positive": 1,
-                "important": 1,
-                "liked": 1,
-                "disliked": 1,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 1,
-                "comments": 0
-            },
-            "source": {
-                "title": "AMBCrypto",
-                "region": "en",
-                "domain": "ambcrypto.com",
-                "path": null
-            },
-            "title": "SOL\u2019s latest milestone may still leave investors in a state-of-worry because\u2026",
-            "published_at": "2023-05-20T05:30:03Z",
-            "slug": "SOLs-latest-milestone-may-still-leave-investors-in-a-state-of-worry-because",
-            "currencies": [
-                {
-                    "code": "SOL",
-                    "title": "Solana",
-                    "slug": "solana",
-                    "url": "https://cryptopanic.com/news/solana/"
-                }
-            ],
-            "id": 18383806,
-            "url": "https://cryptopanic.com/news/18383806/SOLs-latest-milestone-may-still-leave-investors-in-a-state-of-worry-because",
-            "created_at": "2023-05-20T05:30:03Z"
-        },
-        {
-            "kind": "news",
-            "domain": "cryptoglobe.com",
-            "source": {
-                "title": "CryptoGlobe",
-                "region": "en",
-                "domain": "cryptoglobe.com",
-                "path": null
-            },
-            "title": "NFT Smart Contracts: What They Are and How They Work",
-            "published_at": "2023-05-20T04:30:00Z",
-            "slug": "NFT-Smart-Contracts-What-They-Are-and-How-They-Work",
-            "id": 18383777,
-            "url": "https://cryptopanic.com/news/18383777/NFT-Smart-Contracts-What-They-Are-and-How-They-Work",
-            "created_at": "2023-05-20T04:30:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "cryptonews.com",
-            "votes": {
-                "negative": 0,
-                "positive": 1,
-                "important": 1,
-                "liked": 1,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 1,
-                "comments": 0
-            },
-            "source": {
-                "title": "Cryptonews",
-                "region": "en",
-                "domain": "cryptonews.com",
-                "path": null
-            },
-            "title": "Ripple Adds Nielsen CFO to Its Board of Directors",
-            "published_at": "2023-05-20T04:00:00Z",
-            "slug": "Ripple-Adds-Nielsen-CFO-to-Its-Board-of-Directors",
-            "id": 18383762,
-            "url": "https://cryptopanic.com/news/18383762/Ripple-Adds-Nielsen-CFO-to-Its-Board-of-Directors",
-            "created_at": "2023-05-20T04:00:00Z"
-        },
-        {
-            "kind": "news",
-            "domain": "cointelegraph.com",
-            "votes": {
-                "negative": 0,
-                "positive": 1,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CoinTelegraph",
-                "region": "en",
-                "domain": "cointelegraph.com",
-                "path": null
-            },
-            "title": "Strike moves global headquarters to El Salvador, expands to 65 countries",
-            "published_at": "2023-05-20T03:33:00Z",
-            "slug": "Strike-moves-global-headquarters-to-El-Salvador-expands-to-65-countries",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                },
-                {
-                    "code": "USDT",
-                    "title": "Tether",
-                    "slug": "tether",
-                    "url": "https://cryptopanic.com/news/tether/"
-                }
-            ],
-            "id": 18383742,
-            "url": "https://cryptopanic.com/news/18383742/Strike-moves-global-headquarters-to-El-Salvador-expands-to-65-countries",
-            "created_at": "2023-05-20T03:33:00Z"
-        },
-        {
-            "kind": "news",
-            "domain": "@binance",
-            "source": {
-                "title": "Binance Coin Twitter",
-                "region": "en",
-                "domain": "twitter.com",
-                "path": "@binance"
-            },
-            "title": "#BinancePizza at its finest.\n\n @DinujayaRoxx",
-            "published_at": "2023-05-20T03:00:03Z",
-            "slug": "BinancePizza-at-its-finest-DinujayaRoxx",
-            "currencies": [
-                {
-                    "code": "BNB",
-                    "title": "OEC Binance Coin",
-                    "slug": "oec-binance-coin",
-                    "url": "https://cryptopanic.com/news/oec-binance-coin/"
-                },
-                {
-                    "code": "ETHDOWN",
-                    "title": "ETHDOWN",
-                    "slug": "ethdown",
-                    "url": "https://cryptopanic.com/news/ethdown/"
-                },
-                {
-                    "code": "ETHUP",
-                    "title": "ETHUP",
-                    "slug": "ethup",
-                    "url": "https://cryptopanic.com/news/ethup/"
-                },
-                {
-                    "code": "BNB",
-                    "title": "BNB",
-                    "slug": "binancecoin",
-                    "url": "https://cryptopanic.com/news/binancecoin/"
-                },
-                {
-                    "code": "BNB",
-                    "title": "Heco-Peg Binance Coin",
-                    "slug": "heco-peg-bnb",
-                    "url": "https://cryptopanic.com/news/heco-peg-bnb/"
-                },
-                {
-                    "code": "WBETH",
-                    "title": "Wrapped Beacon ETH",
-                    "slug": "wrapped-beacon-eth",
-                    "url": "https://cryptopanic.com/news/wrapped-beacon-eth/"
-                }
-            ],
-            "id": 18384404,
-            "url": "https://cryptopanic.com/news/18384404/BinancePizza-at-its-finest-DinujayaRoxx",
-            "created_at": "2023-05-20T03:00:03Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        }
-    ]
-}
+[
+    {
+        "kind": "news",
+        "publisher_domain": "bitcoinist.com",
+        "title": "CBDC: Canvas Executes First FX Transaction With Australian eAUD, As Trials Continue",
+        "published_at": "20230520100454",
+        "api_url": "https://cryptopanic.com/news/18389375/CBDC-Canvas-Executes-First-FX-Transaction-With-Australian-eAUD-As-Trials-Continue",
+        "language": "en"
+    },
+    {
+        "kind": "media",
+        "publisher_domain": "youtube.com",
+        "title": "How To Become WEALTHY In The Crypto Market - Cryptocurrency Wealth Transfer",
+        "published_at": "20230520100225",
+        "api_url": "https://cryptopanic.com/news/18389400/How-To-Become-WEALTHY-In-The-Crypto-Market-Cryptocurrency-Wealth-Transfer",
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "decrypt.co",
+        "title": "DeFi Heavyweight Lido Finance Mulls LDO Staking, Token Buyback",
+        "published_at": "20230520100102",
+        "api_url": "https://cryptopanic.com/news/18389388/DeFi-Heavyweight-Lido-Finance-Mulls-LDO-Staking-Token-Buyback",
+        "currency_codes": [
+            "ETH",
+            "LDO"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cryptonews.com",
+        "title": "Controversial Recoveries, Promising Partnerships, Regulation Gambling and 20 Crypto Jokes",
+        "published_at": "20230520100000",
+        "api_url": "https://cryptopanic.com/news/18389379/Controversial-Recoveries-Promising-Partnerships-Regulation-Gambling-and-20-Crypto-Jokes",
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "beincrypto.com",
+        "title": "Ripple Vindicated: US Supreme Court Decision Supports Ripple\u2019s Position",
+        "published_at": "20230520093000",
+        "api_url": "https://cryptopanic.com/news/18388814/Ripple-Vindicated-US-Supreme-Court-Decision-Supports-Ripples-Position",
+        "currency_codes": [
+            "XRP"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "finbold.com",
+        "title": "Supreme Court supports Ripple\u2019s argument in SEC case, backs law adaptation",
+        "published_at": "20230520092724",
+        "api_url": "https://cryptopanic.com/news/18388612/Supreme-Court-supports-Ripples-argument-in-SEC-case-backs-law-adaptation",
+        "currency_codes": [
+            "XRP"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "bitcoinist.com",
+        "title": "European Commission Approves New Tax Directive For Crypto Companies",
+        "published_at": "20230520092150",
+        "api_url": "https://cryptopanic.com/news/18388597/European-Commission-Approves-New-Tax-Directive-For-Crypto-Companies",
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cryptonews.com",
+        "title": "Bitcoin Price Prediction as BTC Holds At $26,800 \u2013 Is $30,000 the Next BTC Target?",
+        "published_at": "20230520091900",
+        "api_url": "https://cryptopanic.com/news/18388611/Bitcoin-Price-Prediction-as-BTC-Holds-At-26800-Is-30000-the-Next-BTC-Target",
+        "currency_codes": [
+            "BTC"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "dailyhodl.com",
+        "title": "Rich Dad Poor Dad Author Predicts \u2018Crash Landing\u2019 Ahead, Says Bitcoin and Precious Metals Are Best Insurance",
+        "published_at": "20230520091539",
+        "api_url": "https://cryptopanic.com/news/18388463/Rich-Dad-Poor-Dad-Author-Predicts-Crash-Landing-Ahead-Says-Bitcoin-and-Precious-Metals-Are-Best-Insurance",
+        "currency_codes": [
+            "BTC"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cryptoglobe.com",
+        "title": "Reviving the \u201990s: Nintendo Game Boy as the Next Big Crypto Wallet",
+        "published_at": "20230520083651",
+        "api_url": "https://cryptopanic.com/news/18387869/Reviving-the-90s-Nintendo-Game-Boy-as-the-Next-Big-Crypto-Wallet",
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "beincrypto.com",
+        "title": "Strike Moves HQ to El Salvador, Expanding Bitcoin Payments to 65 Countries",
+        "published_at": "20230520083536",
+        "api_url": "https://cryptopanic.com/news/18387641/Strike-Moves-HQ-to-El-Salvador-Expanding-Bitcoin-Payments-to-65-Countries",
+        "currency_codes": [
+            "BTC"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cointelegraph.com",
+        "title": "Instagram to reportedly launch text-based app to rival Twitter",
+        "published_at": "20230520082000",
+        "api_url": "https://cryptopanic.com/news/18387459/Instagram-to-reportedly-launch-text-based-app-to-rival-Twitter",
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "u.today",
+        "title": "Dogecoin Creator Names Investments That Are \u2018Less Exciting and Scary\u2019 Than Crypto",
+        "published_at": "20230520071300",
+        "api_url": "https://cryptopanic.com/news/18385890/Dogecoin-Creator-Names-Investments-That-Are-Less-Exciting-and-Scary-Than-Crypto",
+        "currency_codes": [
+            "DOGE"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "dailyhodl.com",
+        "title": "Bloomberg Analyst Mike McGlone Warns Bitcoin and Other Crypto Assets Could Crash if This Happens",
+        "published_at": "20230520070441",
+        "api_url": "https://cryptopanic.com/news/18385682/Bloomberg-Analyst-Mike-McGlone-Warns-Bitcoin-and-Other-Crypto-Assets-Could-Crash-if-This-Happens",
+        "currency_codes": [
+            "BTC",
+            "ETH"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "bitcoinist.com",
+        "title": "Tether Partners With KriptonMarket To Support USDT Acceptance In Argentina",
+        "published_at": "20230520070000",
+        "api_url": "https://cryptopanic.com/news/18385504/Tether-Partners-With-KriptonMarket-To-Support-USDT-Acceptance-In-Argentina",
+        "currency_codes": [
+            "USDT"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cryptonews.com",
+        "title": "Mantle: BitDAO token will be Mantle after BIP-21 Vote",
+        "published_at": "20230520065200",
+        "api_url": "https://cryptopanic.com/news/18385513/Mantle-BitDAO-token-will-be-Mantle-after-BIP-21-Vote",
+        "currency_codes": [
+            "BIT"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "ambcrypto.com",
+        "title": "Ethereum traders may have to sit tight this weekend as ETH fails to\u2026",
+        "published_at": "20230520063002",
+        "api_url": "https://cryptopanic.com/news/18385096/Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
+        "currency_codes": [
+            "ETH"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cryptopotato.com",
+        "title": "Injective Jumps 20% Weekly, Bitcoin Stalls Below $27K: Weekend Watch",
+        "published_at": "20230520062733",
+        "api_url": "https://cryptopanic.com/news/18384904/Injective-Jumps-20-Weekly-Bitcoin-Stalls-Below-27K-Weekend-Watch",
+        "currency_codes": [
+            "BTC",
+            "INJ"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cointelegraph.com",
+        "title": "\u2018Big Short\u2019 author Michael Lewis almost ready to publish book on SBF",
+        "published_at": "20230520060447",
+        "api_url": "https://cryptopanic.com/news/18384490/Big-Short-author-Michael-Lewis-almost-ready-to-publish-book-on-SBF",
+        "currency_codes": [
+            "BTC",
+            "FTT"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "cointelegraph.com",
+        "title": "Ledger co-founder clarifies \u2018there is no backdoor\u2019 in \u2018Recover\u2019 firmware update",
+        "published_at": "20230520060100",
+        "api_url": "https://cryptopanic.com/news/18384491/Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
+        "language": "en"
+    }
+]
