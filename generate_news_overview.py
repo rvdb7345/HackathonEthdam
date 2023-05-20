@@ -25,11 +25,14 @@ def generate_news_overview():
 
     # collect api inputs
     for api_name, (url_formatter, url_settings) in news_apis.items():
+
+        # news api is a python package that doesn't require the response fetching
         if api_name == 'news_api':
             api_response = fetch_news_api()
         else:
             api_response = fetch_api(url_formatter, url_settings)
 
+        # parse the API response to be harmonised with the rest
         parsed_api_response = response_parser.parse_api_response(api_response, api_name)
 
         # store individual response
@@ -37,7 +40,9 @@ def generate_news_overview():
 
         news_outputs[api_name] = parsed_api_response
 
+    # store the full out
     store_news_response(news_outputs, 'combined')
+
 
 if __name__ == '__main__':
     generate_news_overview()
