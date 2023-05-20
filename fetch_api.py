@@ -1,9 +1,38 @@
 import requests
 import json
+import secrets
 
-def get_data_from_api():
+def make_url(filter=None, currencies=None, kind=None, region=None, page=None):
+    """Handle of URL variables for API POST."""
+    url = 'https://cryptopanic.com/api/v1/posts/?auth_token={}'.format(secrets.cryptopanic_api)
+
+    if currencies is not None:
+        if len(currencies.split(',')) <= 50:
+            url += "&currencies={}".format(currencies)
+        else:
+            print("Warning: Max Currencies is 50")
+            return
+
+    if kind is not None and kind in ['news', 'media']:
+        url += "&kind={}".format(kind)
+
+    filters = ['rising', 'hot', 'bullish', 'bearish', 'important', 'saved', 'lol']
+    if filter is not None and filter in filters:
+        url += "&filter={}".format(filter)
+
+    regions = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru']  # (English), (Deutsch), (Español), (Français), (Italiano), (Português), (Русский)--> Respectively
+    if region is not None and region in regions:
+        url += "&region={}".format(region)
+
+    if page is not None:
+        url += "&page={}".format(page)
+
+    return url
+
+
+def get_data_from_api(api_key):
     # The URL of the API endpoint
-    url = 'https://api.example.com/data'
+    url = make_url(filter=None, currencies=None, kind=None, region=None, page=None)
 
     # Send a GET request to the API endpoint
     response = requests.get(url)
@@ -19,4 +48,4 @@ def get_data_from_api():
         print(f'Request failed with status code {response.status_code}')
 
 if __name__ == "__main__":
-    get_data_from_api()
+    get_data_from_api(secrets.cryptopanic_api)
