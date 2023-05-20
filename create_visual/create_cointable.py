@@ -30,3 +30,4 @@ if __name__ == "__main__":
     # Save the Markdown table as a .txt file
     with open('create_visual/table.txt', 'w') as file:
         file.write(table)
+    print('Created table')
