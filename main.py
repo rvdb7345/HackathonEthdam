@@ -5,6 +5,7 @@ create the newsletter.
 
 # Imports
 from data_parsing.json_parsing import convert_to_markdown
+from json_to_markdown import article_json_to_markdown
 
 
 def main():
@@ -12,7 +13,9 @@ def main():
     pass
 
     # Gather the newsdata
-    markdown_json = convert_to_markdown('data/20230520_combined.json')
+    markdown_json = convert_to_markdown("data/20230520_combined.json")
+    print(markdown_json)
+    article_json_to_markdown(markdown_json)
 
     # Gather the dune chart
     pass
@@ -21,5 +24,5 @@ def main():
     pass
 
 
-if __name__ == '__main__':
-    main()                                                                      
+if __name__ == "__main__":
+    main()
