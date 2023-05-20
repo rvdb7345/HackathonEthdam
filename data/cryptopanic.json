@@ -1,0 +1,749 @@
+{
+    "count": 200,
+    "next": "https://cryptopanic.com/api/v1/posts/?auth_token=c203c47a873a45549a6efcc8df935a5b22834953&page=2",
+    "previous": null,
+    "results": [
+        {
+            "kind": "news",
+            "domain": "u.today",
+            "source": {
+                "title": "U.Today",
+                "region": "en",
+                "domain": "u.today",
+                "path": null
+            },
+            "title": "Dogecoin Creator Names Investments That Are \u2018Less Exciting and Scary\u2019 Than Crypto",
+            "published_at": "2023-05-20T07:13:00Z",
+            "slug": "Dogecoin-Creator-Names-Investments-That-Are-Less-Exciting-and-Scary-Than-Crypto",
+            "currencies": [
+                {
+                    "code": "DOGE",
+                    "title": "Dogecoin",
+                    "slug": "dogecoin",
+                    "url": "https://cryptopanic.com/news/dogecoin/"
+                }
+            ],
+            "id": 18385890,
+            "url": "https://cryptopanic.com/news/18385890/Dogecoin-Creator-Names-Investments-That-Are-Less-Exciting-and-Scary-Than-Crypto",
+            "created_at": "2023-05-20T07:13:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "dailyhodl.com",
+            "source": {
+                "title": "The Daily Hodl",
+                "region": "en",
+                "domain": "dailyhodl.com",
+                "path": null
+            },
+            "title": "Bloomberg Analyst Mike McGlone Warns Bitcoin and Other Crypto Assets Could Crash if This Happens",
+            "published_at": "2023-05-20T07:04:41Z",
+            "slug": "Bloomberg-Analyst-Mike-McGlone-Warns-Bitcoin-and-Other-Crypto-Assets-Could-Crash-if-This-Happens",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                },
+                {
+                    "code": "ETH",
+                    "title": "Ethereum",
+                    "slug": "ethereum",
+                    "url": "https://cryptopanic.com/news/ethereum/"
+                }
+            ],
+            "id": 18385682,
+            "url": "https://cryptopanic.com/news/18385682/Bloomberg-Analyst-Mike-McGlone-Warns-Bitcoin-and-Other-Crypto-Assets-Could-Crash-if-This-Happens",
+            "created_at": "2023-05-20T07:04:41Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "bitcoinist.com",
+            "source": {
+                "title": "Bitcoinist",
+                "region": "en",
+                "domain": "bitcoinist.com",
+                "path": null
+            },
+            "title": "Tether Partners With KriptonMarket To Support USDT Acceptance In Argentina",
+            "published_at": "2023-05-20T07:00:00Z",
+            "slug": "Tether-Partners-With-KriptonMarket-To-Support-USDT-Acceptance-In-Argentina",
+            "currencies": [
+                {
+                    "code": "USDT",
+                    "title": "Tether",
+                    "slug": "tether",
+                    "url": "https://cryptopanic.com/news/tether/"
+                }
+            ],
+            "id": 18385504,
+            "url": "https://cryptopanic.com/news/18385504/Tether-Partners-With-KriptonMarket-To-Support-USDT-Acceptance-In-Argentina",
+            "created_at": "2023-05-20T07:00:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptonews.com",
+            "source": {
+                "title": "Cryptonews",
+                "region": "en",
+                "domain": "cryptonews.com",
+                "path": null
+            },
+            "title": "Mantle: BitDAO token will be Mantle after BIP-21 Vote",
+            "published_at": "2023-05-20T06:52:00Z",
+            "slug": "Mantle-BitDAO-token-will-be-Mantle-after-BIP-21-Vote",
+            "currencies": [
+                {
+                    "code": "BIT",
+                    "title": "BitDAO",
+                    "slug": "bitdao",
+                    "url": "https://cryptopanic.com/news/bitdao/"
+                }
+            ],
+            "id": 18385513,
+            "url": "https://cryptopanic.com/news/18385513/Mantle-BitDAO-token-will-be-Mantle-after-BIP-21-Vote",
+            "created_at": "2023-05-20T06:52:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "ambcrypto.com",
+            "source": {
+                "title": "AMBCrypto",
+                "region": "en",
+                "domain": "ambcrypto.com",
+                "path": null
+            },
+            "title": "Ethereum traders may have to sit tight this weekend as ETH fails to\u2026",
+            "published_at": "2023-05-20T06:30:02Z",
+            "slug": "Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
+            "currencies": [
+                {
+                    "code": "ETH",
+                    "title": "Ethereum",
+                    "slug": "ethereum",
+                    "url": "https://cryptopanic.com/news/ethereum/"
+                }
+            ],
+            "id": 18385096,
+            "url": "https://cryptopanic.com/news/18385096/Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
+            "created_at": "2023-05-20T06:30:02Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptopotato.com",
+            "source": {
+                "title": "Feed - Cryptopotato.Com",
+                "region": "en",
+                "domain": "cryptopotato.com",
+                "path": null
+            },
+            "title": "Injective Jumps 20% Weekly, Bitcoin Stalls Below $27K: Weekend Watch",
+            "published_at": "2023-05-20T06:27:33Z",
+            "slug": "Injective-Jumps-20-Weekly-Bitcoin-Stalls-Below-27K-Weekend-Watch",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                },
+                {
+                    "code": "INJ",
+                    "title": "Injective",
+                    "slug": "injective-protocol",
+                    "url": "https://cryptopanic.com/news/injective-protocol/"
+                }
+            ],
+            "id": 18384904,
+            "url": "https://cryptopanic.com/news/18384904/Injective-Jumps-20-Weekly-Bitcoin-Stalls-Below-27K-Weekend-Watch",
+            "created_at": "2023-05-20T06:27:33Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cointelegraph.com",
+            "source": {
+                "title": "CoinTelegraph",
+                "region": "en",
+                "domain": "cointelegraph.com",
+                "path": null
+            },
+            "title": "\u2018Big Short\u2019 author Michael Lewis almost ready to publish book on SBF",
+            "published_at": "2023-05-20T06:04:47Z",
+            "slug": "Big-Short-author-Michael-Lewis-almost-ready-to-publish-book-on-SBF",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                },
+                {
+                    "code": "FTT",
+                    "title": "FTX",
+                    "slug": "ftx-token",
+                    "url": "https://cryptopanic.com/news/ftx-token/"
+                }
+            ],
+            "id": 18384490,
+            "url": "https://cryptopanic.com/news/18384490/Big-Short-author-Michael-Lewis-almost-ready-to-publish-book-on-SBF",
+            "created_at": "2023-05-20T06:04:47Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cointelegraph.com",
+            "votes": {
+                "negative": 1,
+                "positive": 0,
+                "important": 1,
+                "liked": 0,
+                "disliked": 1,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CoinTelegraph",
+                "region": "en",
+                "domain": "cointelegraph.com",
+                "path": null
+            },
+            "title": "Ledger co-founder clarifies \"there is no backdoor\" in Recover firmware update",
+            "published_at": "2023-05-20T06:01:00Z",
+            "slug": "Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
+            "id": 18384491,
+            "url": "https://cryptopanic.com/news/18384491/Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
+            "created_at": "2023-05-20T06:01:00Z"
+        },
+        {
+            "kind": "news",
+            "domain": "ambcrypto.com",
+            "votes": {
+                "negative": 1,
+                "positive": 0,
+                "important": 1,
+                "liked": 0,
+                "disliked": 1,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "AMBCrypto",
+                "region": "en",
+                "domain": "ambcrypto.com",
+                "path": null
+            },
+            "title": "SOL\u2019s latest milestone may still leave investors in a state-of-worry because\u2026",
+            "published_at": "2023-05-20T05:30:03Z",
+            "slug": "SOLs-latest-milestone-may-still-leave-investors-in-a-state-of-worry-because",
+            "currencies": [
+                {
+                    "code": "SOL",
+                    "title": "Solana",
+                    "slug": "solana",
+                    "url": "https://cryptopanic.com/news/solana/"
+                }
+            ],
+            "id": 18383806,
+            "url": "https://cryptopanic.com/news/18383806/SOLs-latest-milestone-may-still-leave-investors-in-a-state-of-worry-because",
+            "created_at": "2023-05-20T05:30:03Z"
+        },
+        {
+            "kind": "news",
+            "domain": "cryptoglobe.com",
+            "source": {
+                "title": "CryptoGlobe",
+                "region": "en",
+                "domain": "cryptoglobe.com",
+                "path": null
+            },
+            "title": "NFT Smart Contracts: What They Are and How They Work",
+            "published_at": "2023-05-20T04:30:00Z",
+            "slug": "NFT-Smart-Contracts-What-They-Are-and-How-They-Work",
+            "id": 18383777,
+            "url": "https://cryptopanic.com/news/18383777/NFT-Smart-Contracts-What-They-Are-and-How-They-Work",
+            "created_at": "2023-05-20T04:30:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptonews.com",
+            "votes": {
+                "negative": 0,
+                "positive": 1,
+                "important": 1,
+                "liked": 1,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 1,
+                "comments": 0
+            },
+            "source": {
+                "title": "Cryptonews",
+                "region": "en",
+                "domain": "cryptonews.com",
+                "path": null
+            },
+            "title": "Ripple Adds Nielsen CFO to Its Board of Directors",
+            "published_at": "2023-05-20T04:00:00Z",
+            "slug": "Ripple-Adds-Nielsen-CFO-to-Its-Board-of-Directors",
+            "id": 18383762,
+            "url": "https://cryptopanic.com/news/18383762/Ripple-Adds-Nielsen-CFO-to-Its-Board-of-Directors",
+            "created_at": "2023-05-20T04:00:00Z"
+        },
+        {
+            "kind": "news",
+            "domain": "cointelegraph.com",
+            "votes": {
+                "negative": 0,
+                "positive": 1,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CoinTelegraph",
+                "region": "en",
+                "domain": "cointelegraph.com",
+                "path": null
+            },
+            "title": "Strike moves global headquarters to El Salvador, expands to 65 countries",
+            "published_at": "2023-05-20T03:33:00Z",
+            "slug": "Strike-moves-global-headquarters-to-El-Salvador-expands-to-65-countries",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                },
+                {
+                    "code": "USDT",
+                    "title": "Tether",
+                    "slug": "tether",
+                    "url": "https://cryptopanic.com/news/tether/"
+                }
+            ],
+            "id": 18383742,
+            "url": "https://cryptopanic.com/news/18383742/Strike-moves-global-headquarters-to-El-Salvador-expands-to-65-countries",
+            "created_at": "2023-05-20T03:33:00Z"
+        },
+        {
+            "kind": "news",
+            "domain": "@binance",
+            "source": {
+                "title": "Binance Coin Twitter",
+                "region": "en",
+                "domain": "twitter.com",
+                "path": "@binance"
+            },
+            "title": "#BinancePizza at its finest.\n\n @DinujayaRoxx",
+            "published_at": "2023-05-20T03:00:03Z",
+            "slug": "BinancePizza-at-its-finest-DinujayaRoxx",
+            "currencies": [
+                {
+                    "code": "BNB",
+                    "title": "OEC Binance Coin",
+                    "slug": "oec-binance-coin",
+                    "url": "https://cryptopanic.com/news/oec-binance-coin/"
+                },
+                {
+                    "code": "ETHDOWN",
+                    "title": "ETHDOWN",
+                    "slug": "ethdown",
+                    "url": "https://cryptopanic.com/news/ethdown/"
+                },
+                {
+                    "code": "ETHUP",
+                    "title": "ETHUP",
+                    "slug": "ethup",
+                    "url": "https://cryptopanic.com/news/ethup/"
+                },
+                {
+                    "code": "BNB",
+                    "title": "BNB",
+                    "slug": "binancecoin",
+                    "url": "https://cryptopanic.com/news/binancecoin/"
+                },
+                {
+                    "code": "BNB",
+                    "title": "Heco-Peg Binance Coin",
+                    "slug": "heco-peg-bnb",
+                    "url": "https://cryptopanic.com/news/heco-peg-bnb/"
+                },
+                {
+                    "code": "WBETH",
+                    "title": "Wrapped Beacon ETH",
+                    "slug": "wrapped-beacon-eth",
+                    "url": "https://cryptopanic.com/news/wrapped-beacon-eth/"
+                }
+            ],
+            "id": 18384404,
+            "url": "https://cryptopanic.com/news/18384404/BinancePizza-at-its-finest-DinujayaRoxx",
+            "created_at": "2023-05-20T03:00:03Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptoglobe.com",
+            "source": {
+                "title": "CryptoGlobe",
+                "region": "en",
+                "domain": "cryptoglobe.com",
+                "path": null
+            },
+            "title": "Bitcoin Miners Dump $55 Million Worth of $BTC Amid Price Drop to Key Support Level",
+            "published_at": "2023-05-20T02:20:00Z",
+            "slug": "Bitcoin-Miners-Dump-55-Million-Worth-of-BTC-Amid-Price-Drop-to-Key-Support-Level",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                }
+            ],
+            "id": 18383699,
+            "url": "https://cryptopanic.com/news/18383699/Bitcoin-Miners-Dump-55-Million-Worth-of-BTC-Amid-Price-Drop-to-Key-Support-Level",
+            "created_at": "2023-05-20T02:20:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "beincrypto.com",
+            "votes": {
+                "negative": 1,
+                "positive": 1,
+                "important": 1,
+                "liked": 2,
+                "disliked": 0,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 1,
+                "comments": 1
+            },
+            "source": {
+                "title": "BeInCrypto",
+                "region": "en",
+                "domain": "beincrypto.com",
+                "path": null
+            },
+            "title": "Will Shiba Inu (SHIB) Bounce and Save 350-Day Pattern?",
+            "published_at": "2023-05-20T02:00:00Z",
+            "slug": "Will-Shiba-Inu-SHIB-Bounce-and-Save-350-Day-Pattern",
+            "currencies": [
+                {
+                    "code": "SHIB",
+                    "title": "Shiba Inu",
+                    "slug": "shiba-inu",
+                    "url": "https://cryptopanic.com/news/shiba-inu/"
+                }
+            ],
+            "id": 18383690,
+            "url": "https://cryptopanic.com/news/18383690/Will-Shiba-Inu-SHIB-Bounce-and-Save-350-Day-Pattern",
+            "created_at": "2023-05-20T02:00:00Z"
+        },
+        {
+            "kind": "news",
+            "domain": "cointelegraph.com",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 1,
+                "disliked": 0,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CoinTelegraph",
+                "region": "en",
+                "domain": "cointelegraph.com",
+                "path": null
+            },
+            "title": "$3M worth of customer funds swiped via alleged Swaprum DEX rug pull",
+            "published_at": "2023-05-20T01:52:49Z",
+            "slug": "3M-worth-of-customer-funds-swiped-via-alleged-Swaprum-DEX-rug-pull",
+            "id": 18383682,
+            "url": "https://cryptopanic.com/news/18383682/3M-worth-of-customer-funds-swiped-via-alleged-Swaprum-DEX-rug-pull",
+            "created_at": "2023-05-20T01:52:49Z"
+        },
+        {
+            "kind": "news",
+            "domain": "@bgarlinghouse",
+            "votes": {
+                "negative": 0,
+                "positive": 1,
+                "important": 1,
+                "liked": 1,
+                "disliked": 0,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CEO at Ripple",
+                "region": "en",
+                "domain": "twitter.com",
+                "path": "@bgarlinghouse"
+            },
+            "title": "RT @Leerzeit: Lol do you realize what @Ripple did within just the last 72h since Torres issued her order on the Hinman emails? They aquired\u2026",
+            "published_at": "2023-05-20T01:37:12Z",
+            "slug": "RT-Leerzeit-Lol-do-you-realize-what-Ripple-did-within-just-the-last-72h-since-Torres-issued-her-order-on-the-Hinman-emails-They-aquired",
+            "currencies": [
+                {
+                    "code": "XRP",
+                    "title": "XRP",
+                    "slug": "ripple",
+                    "url": "https://cryptopanic.com/news/ripple/"
+                }
+            ],
+            "id": 18384635,
+            "url": "https://cryptopanic.com/news/18384635/RT-Leerzeit-Lol-do-you-realize-what-Ripple-did-within-just-the-last-72h-since-Torres-issued-her-order-on-the-Hinman-emails-They-aquired",
+            "created_at": "2023-05-20T01:37:12Z"
+        },
+        {
+            "kind": "news",
+            "domain": "coindesk.com",
+            "votes": {
+                "negative": 1,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 1,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CoinDesk",
+                "region": "en",
+                "domain": "coindesk.com",
+                "path": null
+            },
+            "title": "Sotheby's Auctions Part of 3AC's Rare NFT Collection, Bringing In $2.4 Million",
+            "published_at": "2023-05-20T01:26:04Z",
+            "slug": "Sothebys-Auctions-Part-of-3ACs-Rare-NFT-Collection-Bringing-In-24-Million",
+            "id": 18383678,
+            "url": "https://cryptopanic.com/news/18383678/Sothebys-Auctions-Part-of-3ACs-Rare-NFT-Collection-Bringing-In-24-Million",
+            "created_at": "2023-05-20T01:26:04Z"
+        },
+        {
+            "kind": "media",
+            "domain": "youtube.com",
+            "source": {
+                "title": "Altcoin Buzz",
+                "region": "en",
+                "domain": "youtube.com",
+                "path": null
+            },
+            "title": "3 Tips for Investing in Crypto #shorts",
+            "published_at": "2023-05-20T01:00:12Z",
+            "slug": "3-Tips-for-Investing-in-Crypto-shorts",
+            "id": 18383672,
+            "url": "https://cryptopanic.com/news/18383672/3-Tips-for-Investing-in-Crypto-shorts",
+            "created_at": "2023-05-20T01:00:12Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "@binance",
+            "source": {
+                "title": "Binance Coin Twitter",
+                "region": "en",
+                "domain": "twitter.com",
+                "path": "@binance"
+            },
+            "title": "Join the #Binance Affiliate content challenges for a chance to get:\n\n Up to 4,000 $USDT in Token Vouchers\n An App\u2026",
+            "published_at": "2023-05-20T01:00:11Z",
+            "slug": "Join-the-Binance-Affiliate-content-challenges-for-a-chance-to-get-Up-to-4000-USDT-in-Token-Vouchers-An-App",
+            "currencies": [
+                {
+                    "code": "BNB",
+                    "title": "OEC Binance Coin",
+                    "slug": "oec-binance-coin",
+                    "url": "https://cryptopanic.com/news/oec-binance-coin/"
+                },
+                {
+                    "code": "ETHDOWN",
+                    "title": "ETHDOWN",
+                    "slug": "ethdown",
+                    "url": "https://cryptopanic.com/news/ethdown/"
+                },
+                {
+                    "code": "ETHUP",
+                    "title": "ETHUP",
+                    "slug": "ethup",
+                    "url": "https://cryptopanic.com/news/ethup/"
+                },
+                {
+                    "code": "BNB",
+                    "title": "BNB",
+                    "slug": "binancecoin",
+                    "url": "https://cryptopanic.com/news/binancecoin/"
+                },
+                {
+                    "code": "BNB",
+                    "title": "Heco-Peg Binance Coin",
+                    "slug": "heco-peg-bnb",
+                    "url": "https://cryptopanic.com/news/heco-peg-bnb/"
+                },
+                {
+                    "code": "WBETH",
+                    "title": "Wrapped Beacon ETH",
+                    "slug": "wrapped-beacon-eth",
+                    "url": "https://cryptopanic.com/news/wrapped-beacon-eth/"
+                },
+                {
+                    "code": "USDT",
+                    "title": "Tether",
+                    "slug": "tether",
+                    "url": "https://cryptopanic.com/news/tether/"
+                }
+            ],
+            "id": 18384405,
+            "url": "https://cryptopanic.com/news/18384405/Join-the-Binance-Affiliate-content-challenges-for-a-chance-to-get-Up-to-4000-USDT-in-Token-Vouchers-An-App",
+            "created_at": "2023-05-20T01:00:11Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        }
+    ]
+}
