@@ -1,10 +1,10 @@
 import requests
 import json
-import secrets
+import our_secrets
 
 def format_cryptopanic_url(filter=None, currencies=None, kind=None, region=None, page=None):
     """Handle of URL variables for API POST."""
-    url = 'https://cryptopanic.com/api/v1/posts/?auth_token={}'.format(secrets.cryptopanic_api)
+    url = 'https://cryptopanic.com/api/v1/posts/?auth_token={}'.format(our_secrets.cryptopanic_api)
 
     if currencies is not None:
         if len(currencies.split(',')) <= 50:
