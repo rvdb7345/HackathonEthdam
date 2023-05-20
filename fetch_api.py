@@ -1,6 +1,6 @@
 import requests
 import json
-import secrets
+import our_secrets
 
 def make_url(filter=None, currencies=None, kind=None, region=None, page=None):
     """Handle of URL variables for API POST."""

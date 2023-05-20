@@ -15,9 +15,8 @@ def fetch_api(make_url, url_settings):
         data = response.json()
 
         # Print the data
-        parsed_response = json.dumps(data, indent=4)
-        print(parsed_response)
+        print(data)
     else:
         print(f'Request failed with status code {response.status_code}')
 
-    return parsed_response
+    return data
