@@ -30,7 +30,7 @@ def make_url(filter=None, currencies=None, kind=None, region=None, page=None):
     return url
 
 
-def get_data_from_api(api_key):
+def get_data_from_api():
     # The URL of the API endpoint
     url = make_url(filter=None, currencies=None, kind=None, region=None, page=None)
 
@@ -43,9 +43,19 @@ def get_data_from_api(api_key):
         data = response.json()
 
         # Print the data
-        print(json.dumps(data, indent=4))
+        parsed_response = json.dumps(data, indent=4)
+        print(parsed_response)
     else:
         print(f'Request failed with status code {response.status_code}')
 
+    return parsed_response
+
+def store_news_response(news_reponse):
+    with open("data/cryptopanic.json", "w") as outfile:
+        outfile.write(news_reponse)
+
 if __name__ == "__main__":
-    get_data_from_api(secrets.cryptopanic_api)
+    news_response = get_data_from_api()
+    store_news_response(news_response)
+
+
