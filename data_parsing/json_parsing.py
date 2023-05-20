@@ -14,6 +14,7 @@ def convert_json_to_markdown(json_data,convert_dates=False):
         rds_news = convert_json_to_rds(json_data)
         
     rds_news.columns = rds_news.columns.str.replace('link', 'hyperlink')
-    return rds_news[['title','hyperlink','keywords','content']].sample(n=10)
+    samples= rds_news[['title','hyperlink','keywords','content']].sample(n=10)
+    return samples.to_dict()
 
 
