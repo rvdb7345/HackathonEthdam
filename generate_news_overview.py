@@ -1,3 +1,4 @@
+import json
 from data_gathering.fetch_newsdata import format_newsdata_url
 from data_gathering.fetch_cryptopanic import format_cryptopanic_url
 from data_gathering.fetch_api import fetch_api
@@ -18,11 +19,15 @@ def generate_news_overview():
     # collect api inputs
     for api_name, (url_formatter, url_settings) in news_apis.items():
         api_response = fetch_api(url_formatter, url_settings)
+
+        # store individual response
         store_news_response(api_response, api_name)
 
         news_outputs[api_name] = api_response
 
-    store_news_response(news_outputs, 'combined')
+    json_news_outputs = json.dumps(news_outputs, indent=4)
+
+    store_news_response(json_news_outputs, 'combined')
 
 if __name__ == '__main__':
     generate_news_overview()

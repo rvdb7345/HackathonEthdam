@@ -32,7 +32,7 @@ def format_cryptopanic_url(filter=None, currencies=None, kind=None, region=None,
 
 def fetch_cryptopanic():
     # The URL of the API endpoint
-    url = make_url(filter=None, currencies=None, kind=None, region=None, page=None)
+    url = format_cryptopanic_url(filter=None, currencies=None, kind=None, region=None, page=None)
 
     # Send a GET request to the API endpoint
     response = requests.get(url)
@@ -52,6 +52,4 @@ def fetch_cryptopanic():
 
 if __name__ == "__main__":
     news_response = fetch_cryptopanic()
-    store_news_response(news_response)
-
 

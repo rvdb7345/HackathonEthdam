@@ -5,6 +5,103 @@
     "results": [
         {
             "kind": "news",
+            "domain": "finbold.com",
+            "source": {
+                "title": "Finbold",
+                "region": "en",
+                "domain": "finbold.com",
+                "path": null
+            },
+            "title": "Supreme Court supports Ripple\u2019s argument in SEC case, backs law adaptation",
+            "published_at": "2023-05-20T09:27:24Z",
+            "slug": "Supreme-Court-supports-Ripples-argument-in-SEC-case-backs-law-adaptation",
+            "currencies": [
+                {
+                    "code": "XRP",
+                    "title": "XRP",
+                    "slug": "ripple",
+                    "url": "https://cryptopanic.com/news/ripple/"
+                }
+            ],
+            "id": 18388612,
+            "url": "https://cryptopanic.com/news/18388612/Supreme-Court-supports-Ripples-argument-in-SEC-case-backs-law-adaptation",
+            "created_at": "2023-05-20T09:27:24Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "bitcoinist.com",
+            "source": {
+                "title": "Bitcoinist",
+                "region": "en",
+                "domain": "bitcoinist.com",
+                "path": null
+            },
+            "title": "European Commission Approves New Tax Directive For Crypto Companies",
+            "published_at": "2023-05-20T09:21:50Z",
+            "slug": "European-Commission-Approves-New-Tax-Directive-For-Crypto-Companies",
+            "id": 18388597,
+            "url": "https://cryptopanic.com/news/18388597/European-Commission-Approves-New-Tax-Directive-For-Crypto-Companies",
+            "created_at": "2023-05-20T09:21:50Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptonews.com",
+            "source": {
+                "title": "Cryptonews",
+                "region": "en",
+                "domain": "cryptonews.com",
+                "path": null
+            },
+            "title": "Bitcoin Price Prediction as BTC Holds At $26,800 \u2013 Is $30,000 the Next BTC Target?",
+            "published_at": "2023-05-20T09:19:00Z",
+            "slug": "Bitcoin-Price-Prediction-as-BTC-Holds-At-26800-Is-30000-the-Next-BTC-Target",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                }
+            ],
+            "id": 18388611,
+            "url": "https://cryptopanic.com/news/18388611/Bitcoin-Price-Prediction-as-BTC-Holds-At-26800-Is-30000-the-Next-BTC-Target",
+            "created_at": "2023-05-20T09:19:00Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
             "domain": "dailyhodl.com",
             "source": {
                 "title": "The Daily Hodl",
@@ -71,7 +168,7 @@
             "votes": {
                 "negative": 0,
                 "positive": 3,
-                "important": 1,
+                "important": 2,
                 "liked": 3,
                 "disliked": 0,
                 "lol": 0,
@@ -611,103 +708,6 @@
                 "saved": 0,
                 "comments": 0
             }
-        },
-        {
-            "kind": "news",
-            "domain": "cryptoglobe.com",
-            "source": {
-                "title": "CryptoGlobe",
-                "region": "en",
-                "domain": "cryptoglobe.com",
-                "path": null
-            },
-            "title": "Bitcoin Miners Dump $55 Million Worth of $BTC Amid Price Drop to Key Support Level",
-            "published_at": "2023-05-20T02:20:00Z",
-            "slug": "Bitcoin-Miners-Dump-55-Million-Worth-of-BTC-Amid-Price-Drop-to-Key-Support-Level",
-            "currencies": [
-                {
-                    "code": "BTC",
-                    "title": "Bitcoin",
-                    "slug": "bitcoin",
-                    "url": "https://cryptopanic.com/news/bitcoin/"
-                }
-            ],
-            "id": 18383699,
-            "url": "https://cryptopanic.com/news/18383699/Bitcoin-Miners-Dump-55-Million-Worth-of-BTC-Amid-Price-Drop-to-Key-Support-Level",
-            "created_at": "2023-05-20T02:20:00Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "beincrypto.com",
-            "votes": {
-                "negative": 1,
-                "positive": 1,
-                "important": 1,
-                "liked": 2,
-                "disliked": 0,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 1,
-                "comments": 1
-            },
-            "source": {
-                "title": "BeInCrypto",
-                "region": "en",
-                "domain": "beincrypto.com",
-                "path": null
-            },
-            "title": "Will Shiba Inu (SHIB) Bounce and Save 350-Day Pattern?",
-            "published_at": "2023-05-20T02:00:00Z",
-            "slug": "Will-Shiba-Inu-SHIB-Bounce-and-Save-350-Day-Pattern",
-            "currencies": [
-                {
-                    "code": "SHIB",
-                    "title": "Shiba Inu",
-                    "slug": "shiba-inu",
-                    "url": "https://cryptopanic.com/news/shiba-inu/"
-                }
-            ],
-            "id": 18383690,
-            "url": "https://cryptopanic.com/news/18383690/Will-Shiba-Inu-SHIB-Bounce-and-Save-350-Day-Pattern",
-            "created_at": "2023-05-20T02:00:00Z"
-        },
-        {
-            "kind": "news",
-            "domain": "cointelegraph.com",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 1,
-                "disliked": 0,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CoinTelegraph",
-                "region": "en",
-                "domain": "cointelegraph.com",
-                "path": null
-            },
-            "title": "$3M worth of customer funds swiped via alleged Swaprum DEX rug pull",
-            "published_at": "2023-05-20T01:52:49Z",
-            "slug": "3M-worth-of-customer-funds-swiped-via-alleged-Swaprum-DEX-rug-pull",
-            "id": 18383682,
-            "url": "https://cryptopanic.com/news/18383682/3M-worth-of-customer-funds-swiped-via-alleged-Swaprum-DEX-rug-pull",
-            "created_at": "2023-05-20T01:52:49Z"
         }
     ]
 }
