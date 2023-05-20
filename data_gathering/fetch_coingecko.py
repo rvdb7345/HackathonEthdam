@@ -1,5 +1,6 @@
 import datetime
 from fetch_api import fetch_api
+import csv
 
 
 def fetch_coingecko():
@@ -40,4 +41,20 @@ def fetch_coingecko():
 
 if __name__ == "__main__":
     results = fetch_coingecko()
-    print(results)
+    csv_file = "data/top10coins_data.csv"
+    # Open the CSV file in write mode
+    with open(csv_file, mode='w', newline='') as file:
+        writer = csv.writer(file)
+
+          # Write the header row
+        writer.writerow(['Cryptocurrency', 'Current Price', 'Last weeks Price', 'Percentage Change'])
+
+        # Write each row of data
+        for crypto, info in results.items():
+            current_price = info['current_price']
+            history_price = info['history_price']
+            percentage_change = ((current_price - history_price) / history_price) * 100
+            writer.writerow([crypto, current_price, round(history_price, 2), round(percentage_change, 2)])
+            # insert date and append weekly data
+
+    print("Data has been written to ", csv_file)
