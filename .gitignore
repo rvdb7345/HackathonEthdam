@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 nws_api_key.txt
+
+# ingore DS_store
+**/.DS_Store
