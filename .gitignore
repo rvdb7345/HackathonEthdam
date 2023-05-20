@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-nws_api_key.txt
+news_api_key.txt
 
 # ingore DS_store
 **/.DS_Store
