@@ -14,17 +14,17 @@ def convert_to_markdown(json_data,convert_dates=False):
         rds_news = convert_json_to_rds(json_data)
             
     rds_news.columns = rds_news.columns.str.replace('publisher_domain', 'hyperlink')
-    samples= rds_news[['title','hyperlink','keywords','content']].sample(n=2)
-    
+    samples= rds_news[['title','hyperlink','keywords','content']].sample(n=3)
+    samples.fillna('', inplace=True)
     data=[]
     for index, row in samples.iterrows():
         json_object = {
         "title": row['title'],
-        "hyperlink": row['hyperlink'],
+        "hyperlink": [row['hyperlink']],
         "keywords": row['keywords'],
         "content": row['content']
     }
-    data.append(json_object)
-    return json_data
+        data.append(json_object)
+    return data
 
 
