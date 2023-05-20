@@ -50,10 +50,6 @@ def get_data_from_api():
 
     return parsed_response
 
-def store_news_response(news_reponse):
-    with open("data/cryptopanic.json", "w") as outfile:
-        outfile.write(news_reponse)
-
 if __name__ == "__main__":
     news_response = get_data_from_api()
     store_news_response(news_response)

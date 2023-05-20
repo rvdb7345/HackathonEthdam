@@ -13,11 +13,11 @@ class openAI:
     """
 
     def __init__(self, openai_model="text-davinci-003"):
-        openai.api_key = secrets.open_ai_key
+        openai.api_key = our_secrets.open_ai_key
         self.openai_model = openai_model
         self.prompt = "NO PROMPT YET"
 
-    def promptify(self, source_article, article_length=500):
+    def promptify_article(self, source_article, article_length=500):
         # Create a prompt to write a short article on a given source.
         self.prompt = (
             "You are the editor of a super trustworty newsletter "
@@ -28,6 +28,19 @@ class openAI:
             + "If you think the source information is incorrect or untrue, only "
             + "respond with INCORRECT INFORMATION."
             + f"Source artile: {source_article}."
+        )
+
+    def promptify_table(self, table_info, insights_length=500):
+        # Create a prompt to write a short article on a given source.
+        self.prompt = (
+            "You are an expert data analyst, specialized in analyzing financial and crypto data. "
+            + "Below, I will provide you with a table containing data on crypto. "
+            + "Please provide us with valuable insights on the data, interesting to "
+            + "investors and general people interested in developments in crypto currencies. "
+            + f"Your anwers should be a maximum of around {insights_length} characters."
+            + "If you think the source information is incorrect or untrue, only "
+            + "respond with INCORRECT INFORMATION."
+            + f"Table: {table_info}."
         )
 
     def request_to_openai(self):
@@ -49,7 +62,7 @@ class openAI:
                 # stop=["\n"]
             )
             print("Total tokens used: ", response["usage"]["total_tokens"])
-            return response["choices"][0]["text"]
+            self.response = response["choices"][0]["text"]
 
     def custom_request_to_openai(self, custom_prompt):
         # Custom version of the request function for testing purposes
@@ -65,4 +78,14 @@ class openAI:
             # stop=["\n"]
         )
         print("Total tokens used: ", response["usage"]["total_tokens"])
-        return response["choices"][0]["text"]
+        self.response = response["choices"][0]["text"]
+
+    def run(self, information, info_is_table=False):
+        # Function to tie everything together and return ChatGPT's wisdom
+        if info_is_table:
+            self.promptify_table(information)
+        else:
+            self.promptify_article(information)
+
+        self.request_to_openai()
+        return self.response

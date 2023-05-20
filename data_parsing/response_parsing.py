@@ -23,9 +23,7 @@ class ParseApiResponse():
     def parse_cryptopanic(self, response):
         parsed_results = []
 
-        print(type(response))
-
-        for news_article in response['results']:
+        for news_article in response:
             news_result = {}
             news_result['kind'] = news_article['kind']
             news_result['publisher_domain'] = news_article['domain']
@@ -45,7 +43,27 @@ class ParseApiResponse():
         return parsed_results
 
     def parse_newsdata(self, response):
-        return response
+        parsed_results = []
+
+        for news_article in response:
+            news_result = {}
+            news_result['kind'] = 'news'
+            news_result['publisher_domain'] = news_article['link']
+            news_result['publisher'] = news_article['source_id']
+
+            news_result['keywords'] = news_article['keywords']
+            news_result['author'] = news_article['creator']
+
+            news_result['title'] = news_article['title']
+            news_result['abstract'] = news_article['description']
+            news_result['content'] = news_article['content']
+            news_result['published_at'] = \
+                datetime.strptime(news_article['pubDate'], '%Y-%m-%d %H:%M:%S').strftime("%Y%m%d%H%M%S")
+            news_result['language'] = news_article['language']
+
+            parsed_results.append(news_result)
+
+        return parsed_results
 
     def parse_news_api(self, response):
         return response
