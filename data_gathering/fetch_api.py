@@ -2,10 +2,8 @@ import requests
 import json
 
 
-def fetch_api(make_url, url_settings):
+def fetch_api(url, url_settings):
     # The URL of the API endpoint
-    url = make_url(**url_settings)
-
     # Send a GET request to the API endpoint
     response = requests.get(url)
 

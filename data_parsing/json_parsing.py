@@ -5,7 +5,6 @@ def load_all_news(file_path):
 
     # Opening JSON file
     with open(file_path) as f:
-
         # returns JSON object as
         # a dictionary
         data = json.load(f)

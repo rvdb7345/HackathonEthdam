@@ -7,6 +7,30 @@ from data_gathering.fetch_news_api import fetch_news_api
 from data_gathering.fetch_api import fetch_api
 from data_parsing.response_parsing import ParseApiResponse
 
+def gather_cryptopanic_data(url_formatter, url_settings):
+    url = url_formatter(**url_settings)
+
+    single_response = fetch_api(url, url_settings)
+    full_response = single_response['results']
+
+    while single_response.get('next') is not None:
+        single_response = fetch_api(single_response['next'], url_settings)
+        full_response += single_response['results']
+
+    return full_response
+
+def gather_newsdata_data(url_formatter, url_settings):
+    url = url_formatter(**url_settings)
+
+    single_response = fetch_api(url, url_settings)
+    full_response = single_response['results']
+
+    while single_response.get('nextPage') is not None:
+        single_response = fetch_api(url + f'&page={single_response["nextPage"]}', url_settings)
+        full_response += single_response['results']
+
+    return full_response
+
 def store_news_response(news_reponse, source):
     json_news_outputs = json.dumps(news_reponse, indent=4)
 
@@ -30,19 +54,23 @@ def generate_news_overview(now):
 
         # news api is a python package that doesn't require the response fetching
         if api_name == 'news_api':
-            api_response = fetch_news_api()
-        else:
-            api_response = fetch_api(url_formatter, url_settings)
+            api_results = fetch_news_api()
+        elif api_name == 'cryptopanic':
+            api_results = gather_cryptopanic_data(url_formatter, url_settings)
+        elif api_name == 'newsdata':
+            api_results = gather_newsdata_data(url_formatter, url_settings)
 
-        store_news_response(api_response, f'{now}_original_' + api_name)
+        store_news_response(api_results, f'{now}_original_' + api_name)
 
         # parse the API response to be harmonised with the rest
-        parsed_api_response = response_parser.parse_api_response(api_response, api_name)
+        parsed_api_response = response_parser.parse_api_response(api_results, api_name)
 
         # store individual response
         store_news_response(parsed_api_response, f'{now}_parsed_' + api_name)
 
         news_outputs[api_name] = parsed_api_response
+
+        print(f'We got {len(parsed_api_response)} from {api_name}')
 
     aggregated_news = [article for source_news in news_outputs.values() for article in source_news]
 
