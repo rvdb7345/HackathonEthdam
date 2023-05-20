@@ -8,7 +8,7 @@ https://dune.com/docs/app/embeds/?h=embed#web-pages
 
 Dune chart embed links:
 - Weekly eth gas: https://dune.com/embeds/1928069/3180711
-- NFT Volume: https://dune.com/embeds/1933143/3188646
+- Daily NFT Volume: https://dune.com/embeds/2492526/4100610
 
 # Mirror How-to
 https://support.mirror.xyz/hc/en-us/articles/6847458952852-Step-by-step-Editor-guide
