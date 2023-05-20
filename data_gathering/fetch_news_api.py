@@ -28,7 +28,7 @@ def fetch_news_api()->Dict:
                                             language='en',
                                             sort_by='relevancy',
                                             page=3)
-        data.extend(all_articles)
+        data.extend(all_articles['articles'])
     return data
 
 if __name__=='__main__':
