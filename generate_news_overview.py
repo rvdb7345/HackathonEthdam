@@ -6,8 +6,10 @@ from data_gathering.fetch_api import fetch_api
 from data_parsing.response_parsing import ParseApiResponse
 
 def store_news_response(news_reponse, source):
+    json_news_outputs = json.dumps(news_reponse, indent=4)
+
     with open(f"data/{source}.json", "w") as outfile:
-        outfile.write(news_reponse)
+        outfile.write(json_news_outputs)
 
 
 def generate_news_overview():
@@ -31,9 +33,7 @@ def generate_news_overview():
 
         news_outputs[api_name] = parsed_api_response
 
-    json_news_outputs = json.dumps(news_outputs, indent=4)
-
-    store_news_response(json_news_outputs, 'combined')
+    store_news_response(news_outputs, 'combined')
 
 if __name__ == '__main__':
     generate_news_overview()

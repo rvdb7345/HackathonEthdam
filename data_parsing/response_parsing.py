@@ -31,9 +31,9 @@ class ParseApiResponse():
             news_result['api_url'] = news_article['url']
 
             if news_article.get('currencies', None) is not None:
-                news_result['currency_codes'] = {currency['code'] for currency in news_article['currencies']}
+                news_result['currency_codes'] = [currency['code'] for currency in news_article['currencies']]
             if news_article.get('source', None) is not None:
-                news_result['language'] = news_result['source']['region']
+                news_result['language'] = news_article['source']['region']
 
             parsed_results.append(news_result)
 
