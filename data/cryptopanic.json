@@ -5,6 +5,130 @@
     "results": [
         {
             "kind": "news",
+            "domain": "dailyhodl.com",
+            "source": {
+                "title": "The Daily Hodl",
+                "region": "en",
+                "domain": "dailyhodl.com",
+                "path": null
+            },
+            "title": "Rich Dad Poor Dad Author Predicts \u2018Crash Landing\u2019 Ahead, Says Bitcoin and Precious Metals Are Best Insurance",
+            "published_at": "2023-05-20T09:15:39Z",
+            "slug": "Rich-Dad-Poor-Dad-Author-Predicts-Crash-Landing-Ahead-Says-Bitcoin-and-Precious-Metals-Are-Best-Insurance",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                }
+            ],
+            "id": 18388463,
+            "url": "https://cryptopanic.com/news/18388463/Rich-Dad-Poor-Dad-Author-Predicts-Crash-Landing-Ahead-Says-Bitcoin-and-Precious-Metals-Are-Best-Insurance",
+            "created_at": "2023-05-20T09:15:39Z",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            }
+        },
+        {
+            "kind": "news",
+            "domain": "cryptoglobe.com",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 1,
+                "comments": 0
+            },
+            "source": {
+                "title": "CryptoGlobe",
+                "region": "en",
+                "domain": "cryptoglobe.com",
+                "path": null
+            },
+            "title": "Reviving the \u201990s: Nintendo Game Boy as the Next Big Crypto Wallet",
+            "published_at": "2023-05-20T08:36:51Z",
+            "slug": "Reviving-the-90s-Nintendo-Game-Boy-as-the-Next-Big-Crypto-Wallet",
+            "id": 18387869,
+            "url": "https://cryptopanic.com/news/18387869/Reviving-the-90s-Nintendo-Game-Boy-as-the-Next-Big-Crypto-Wallet",
+            "created_at": "2023-05-20T08:36:51Z"
+        },
+        {
+            "kind": "news",
+            "domain": "beincrypto.com",
+            "votes": {
+                "negative": 0,
+                "positive": 3,
+                "important": 1,
+                "liked": 3,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "BeInCrypto",
+                "region": "en",
+                "domain": "beincrypto.com",
+                "path": null
+            },
+            "title": "Strike Moves HQ to El Salvador, Expanding Bitcoin Payments to 65 Countries",
+            "published_at": "2023-05-20T08:35:36Z",
+            "slug": "Strike-Moves-HQ-to-El-Salvador-Expanding-Bitcoin-Payments-to-65-Countries",
+            "currencies": [
+                {
+                    "code": "BTC",
+                    "title": "Bitcoin",
+                    "slug": "bitcoin",
+                    "url": "https://cryptopanic.com/news/bitcoin/"
+                }
+            ],
+            "id": 18387641,
+            "url": "https://cryptopanic.com/news/18387641/Strike-Moves-HQ-to-El-Salvador-Expanding-Bitcoin-Payments-to-65-Countries",
+            "created_at": "2023-05-20T08:35:36Z"
+        },
+        {
+            "kind": "news",
+            "domain": "cointelegraph.com",
+            "votes": {
+                "negative": 0,
+                "positive": 1,
+                "important": 1,
+                "liked": 1,
+                "disliked": 1,
+                "lol": 1,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 0
+            },
+            "source": {
+                "title": "CoinTelegraph",
+                "region": "en",
+                "domain": "cointelegraph.com",
+                "path": null
+            },
+            "title": "Instagram to reportedly launch text-based app to rival Twitter",
+            "published_at": "2023-05-20T08:20:00Z",
+            "slug": "Instagram-to-reportedly-launch-text-based-app-to-rival-Twitter",
+            "id": 18387459,
+            "url": "https://cryptopanic.com/news/18387459/Instagram-to-reportedly-launch-text-based-app-to-rival-Twitter",
+            "created_at": "2023-05-20T08:20:00Z"
+        },
+        {
+            "kind": "news",
             "domain": "u.today",
             "source": {
                 "title": "U.Today",
@@ -152,6 +276,17 @@
         {
             "kind": "news",
             "domain": "ambcrypto.com",
+            "votes": {
+                "negative": 0,
+                "positive": 0,
+                "important": 0,
+                "liked": 0,
+                "disliked": 0,
+                "lol": 0,
+                "toxic": 0,
+                "saved": 0,
+                "comments": 1
+            },
             "source": {
                 "title": "AMBCrypto",
                 "region": "en",
@@ -171,18 +306,7 @@
             ],
             "id": 18385096,
             "url": "https://cryptopanic.com/news/18385096/Ethereum-traders-may-have-to-sit-tight-this-weekend-as-ETH-fails-to",
-            "created_at": "2023-05-20T06:30:02Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
+            "created_at": "2023-05-20T06:30:02Z"
         },
         {
             "kind": "news",
@@ -286,7 +410,7 @@
                 "domain": "cointelegraph.com",
                 "path": null
             },
-            "title": "Ledger co-founder clarifies \"there is no backdoor\" in Recover firmware update",
+            "title": "Ledger co-founder clarifies \u2018there is no backdoor\u2019 in \u2018Recover\u2019 firmware update",
             "published_at": "2023-05-20T06:01:00Z",
             "slug": "Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
             "id": 18384491,
@@ -298,13 +422,13 @@
             "domain": "ambcrypto.com",
             "votes": {
                 "negative": 1,
-                "positive": 0,
+                "positive": 1,
                 "important": 1,
-                "liked": 0,
+                "liked": 1,
                 "disliked": 1,
                 "lol": 1,
                 "toxic": 0,
-                "saved": 0,
+                "saved": 1,
                 "comments": 0
             },
             "source": {
@@ -584,166 +708,6 @@
             "id": 18383682,
             "url": "https://cryptopanic.com/news/18383682/3M-worth-of-customer-funds-swiped-via-alleged-Swaprum-DEX-rug-pull",
             "created_at": "2023-05-20T01:52:49Z"
-        },
-        {
-            "kind": "news",
-            "domain": "@bgarlinghouse",
-            "votes": {
-                "negative": 0,
-                "positive": 1,
-                "important": 1,
-                "liked": 1,
-                "disliked": 0,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CEO at Ripple",
-                "region": "en",
-                "domain": "twitter.com",
-                "path": "@bgarlinghouse"
-            },
-            "title": "RT @Leerzeit: Lol do you realize what @Ripple did within just the last 72h since Torres issued her order on the Hinman emails? They aquired\u2026",
-            "published_at": "2023-05-20T01:37:12Z",
-            "slug": "RT-Leerzeit-Lol-do-you-realize-what-Ripple-did-within-just-the-last-72h-since-Torres-issued-her-order-on-the-Hinman-emails-They-aquired",
-            "currencies": [
-                {
-                    "code": "XRP",
-                    "title": "XRP",
-                    "slug": "ripple",
-                    "url": "https://cryptopanic.com/news/ripple/"
-                }
-            ],
-            "id": 18384635,
-            "url": "https://cryptopanic.com/news/18384635/RT-Leerzeit-Lol-do-you-realize-what-Ripple-did-within-just-the-last-72h-since-Torres-issued-her-order-on-the-Hinman-emails-They-aquired",
-            "created_at": "2023-05-20T01:37:12Z"
-        },
-        {
-            "kind": "news",
-            "domain": "coindesk.com",
-            "votes": {
-                "negative": 1,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 1,
-                "lol": 1,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            },
-            "source": {
-                "title": "CoinDesk",
-                "region": "en",
-                "domain": "coindesk.com",
-                "path": null
-            },
-            "title": "Sotheby's Auctions Part of 3AC's Rare NFT Collection, Bringing In $2.4 Million",
-            "published_at": "2023-05-20T01:26:04Z",
-            "slug": "Sothebys-Auctions-Part-of-3ACs-Rare-NFT-Collection-Bringing-In-24-Million",
-            "id": 18383678,
-            "url": "https://cryptopanic.com/news/18383678/Sothebys-Auctions-Part-of-3ACs-Rare-NFT-Collection-Bringing-In-24-Million",
-            "created_at": "2023-05-20T01:26:04Z"
-        },
-        {
-            "kind": "media",
-            "domain": "youtube.com",
-            "source": {
-                "title": "Altcoin Buzz",
-                "region": "en",
-                "domain": "youtube.com",
-                "path": null
-            },
-            "title": "3 Tips for Investing in Crypto #shorts",
-            "published_at": "2023-05-20T01:00:12Z",
-            "slug": "3-Tips-for-Investing-in-Crypto-shorts",
-            "id": 18383672,
-            "url": "https://cryptopanic.com/news/18383672/3-Tips-for-Investing-in-Crypto-shorts",
-            "created_at": "2023-05-20T01:00:12Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
-        },
-        {
-            "kind": "news",
-            "domain": "@binance",
-            "source": {
-                "title": "Binance Coin Twitter",
-                "region": "en",
-                "domain": "twitter.com",
-                "path": "@binance"
-            },
-            "title": "Join the #Binance Affiliate content challenges for a chance to get:\n\n Up to 4,000 $USDT in Token Vouchers\n An App\u2026",
-            "published_at": "2023-05-20T01:00:11Z",
-            "slug": "Join-the-Binance-Affiliate-content-challenges-for-a-chance-to-get-Up-to-4000-USDT-in-Token-Vouchers-An-App",
-            "currencies": [
-                {
-                    "code": "BNB",
-                    "title": "OEC Binance Coin",
-                    "slug": "oec-binance-coin",
-                    "url": "https://cryptopanic.com/news/oec-binance-coin/"
-                },
-                {
-                    "code": "ETHDOWN",
-                    "title": "ETHDOWN",
-                    "slug": "ethdown",
-                    "url": "https://cryptopanic.com/news/ethdown/"
-                },
-                {
-                    "code": "ETHUP",
-                    "title": "ETHUP",
-                    "slug": "ethup",
-                    "url": "https://cryptopanic.com/news/ethup/"
-                },
-                {
-                    "code": "BNB",
-                    "title": "BNB",
-                    "slug": "binancecoin",
-                    "url": "https://cryptopanic.com/news/binancecoin/"
-                },
-                {
-                    "code": "BNB",
-                    "title": "Heco-Peg Binance Coin",
-                    "slug": "heco-peg-bnb",
-                    "url": "https://cryptopanic.com/news/heco-peg-bnb/"
-                },
-                {
-                    "code": "WBETH",
-                    "title": "Wrapped Beacon ETH",
-                    "slug": "wrapped-beacon-eth",
-                    "url": "https://cryptopanic.com/news/wrapped-beacon-eth/"
-                },
-                {
-                    "code": "USDT",
-                    "title": "Tether",
-                    "slug": "tether",
-                    "url": "https://cryptopanic.com/news/tether/"
-                }
-            ],
-            "id": 18384405,
-            "url": "https://cryptopanic.com/news/18384405/Join-the-Binance-Affiliate-content-challenges-for-a-chance-to-get-Up-to-4000-USDT-in-Token-Vouchers-An-App",
-            "created_at": "2023-05-20T01:00:11Z",
-            "votes": {
-                "negative": 0,
-                "positive": 0,
-                "important": 0,
-                "liked": 0,
-                "disliked": 0,
-                "lol": 0,
-                "toxic": 0,
-                "saved": 0,
-                "comments": 0
-            }
         }
     ]
 }

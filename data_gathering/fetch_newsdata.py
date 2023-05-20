@@ -2,9 +2,9 @@ import requests
 import json
 import secrets
 
-def format_cryptopanic_url(filter=None, currencies=None, kind=None, region=None, page=None):
+def format_newsdata_url(filter=None, currencies=None, kind=None, region=None, page=None):
     """Handle of URL variables for API POST."""
-    url = 'https://cryptopanic.com/api/v1/posts/?auth_token={}'.format(secrets.cryptopanic_api)
+    url = 'https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&q=cryptocurrency'.format(secrets.newsdata_api)
 
     if currencies is not None:
         if len(currencies.split(',')) <= 50:
@@ -28,30 +28,5 @@ def format_cryptopanic_url(filter=None, currencies=None, kind=None, region=None,
         url += "&page={}".format(page)
 
     return url
-
-
-def fetch_cryptopanic():
-    # The URL of the API endpoint
-    url = make_url(filter=None, currencies=None, kind=None, region=None, page=None)
-
-    # Send a GET request to the API endpoint
-    response = requests.get(url)
-
-    # If the GET request is successful, the status code will be 200
-    if response.status_code == 200:
-        # Get the data from the response
-        data = response.json()
-
-        # Print the data
-        parsed_response = json.dumps(data, indent=4)
-        print(parsed_response)
-    else:
-        print(f'Request failed with status code {response.status_code}')
-
-    return parsed_response
-
-if __name__ == "__main__":
-    news_response = fetch_cryptopanic()
-    store_news_response(news_response)
 
 
