@@ -1,4 +1,6 @@
 import json
+from datetime import datetime
+
 from data_gathering.fetch_newsdata import format_newsdata_url
 from data_gathering.fetch_cryptopanic import format_cryptopanic_url
 from data_gathering.fetch_news_api import fetch_news_api
@@ -12,7 +14,7 @@ def store_news_response(news_reponse, source):
         outfile.write(json_news_outputs)
 
 
-def generate_news_overview():
+def generate_news_overview(now):
     response_parser = ParseApiResponse()
     news_apis = {
         'cryptopanic': (format_cryptopanic_url, {}),
@@ -32,17 +34,24 @@ def generate_news_overview():
         else:
             api_response = fetch_api(url_formatter, url_settings)
 
+        store_news_response(api_response, f'{now}_original_' + api_name)
+
         # parse the API response to be harmonised with the rest
         parsed_api_response = response_parser.parse_api_response(api_response, api_name)
 
         # store individual response
-        store_news_response(parsed_api_response, api_name)
+        store_news_response(parsed_api_response, f'{now}_parsed_' + api_name)
 
         news_outputs[api_name] = parsed_api_response
 
+    aggregated_news = [article for source_news in news_outputs.values() for article in source_news]
+
     # store the full out
-    store_news_response(news_outputs, 'combined')
+    store_news_response(news_outputs, f'{now}_individual_sources')
+    store_news_response(aggregated_news, f'{now}_combined')
+
 
 
 if __name__ == '__main__':
-    generate_news_overview()
+    now = datetime.now().strftime("%Y%m%d")  # current date and time
+    generate_news_overview(now)
