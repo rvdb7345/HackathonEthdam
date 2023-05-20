@@ -17,7 +17,7 @@ def generate_news_overview():
     news_apis = {
         'cryptopanic': (format_cryptopanic_url, {}),
         'newsdata': (format_newsdata_url, {}),
-        'fetch_news_api':(fetch_news_api,{})
+        'news_api': (fetch_news_api, {})
         
     }
 
@@ -25,7 +25,11 @@ def generate_news_overview():
 
     # collect api inputs
     for api_name, (url_formatter, url_settings) in news_apis.items():
-        api_response = fetch_api(url_formatter, url_settings)
+        if api_name == 'news_api':
+            api_response = fetch_news_api()
+        else:
+            api_response = fetch_api(url_formatter, url_settings)
+
         parsed_api_response = response_parser.parse_api_response(api_response, api_name)
 
         # store individual response

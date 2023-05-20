@@ -10,6 +10,8 @@ class ParseApiResponse():
             parsed_response = self.parse_cryptopanic(response)
         elif source == 'newsdata':
             parsed_response = self.parse_newsdata(response)
+        elif source == 'news_api':
+            parsed_response = self.parse_newsdata(response)
         else:
             assert False, f'Source not recognised: {source}'
 
