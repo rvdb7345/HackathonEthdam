@@ -12,6 +12,9 @@ class ParseApiResponse():
             parsed_response = self.parse_newsdata(response)
         elif source == 'news_api':
             parsed_response = self.parse_news_api(response)
+        elif source == 'google_api':
+            parsed_response = self.parse_google_news_api(response)
+            
         else:
             assert False, f'Source not recognised: {source}'
 
@@ -63,24 +66,11 @@ class ParseApiResponse():
         return parsed_results
 
     def parse_news_api(self, response):
-        parsed_results = []
+        return response
+    
+    def parse_google_news_api(self, response):
+        return response
 
-        for news_article in response:
-            news_result = {}
-            news_result['kind'] = 'news'
-            news_result['publisher_domain'] = news_article['url']
-            news_result['publisher'] = news_article['source']['name']
 
-            news_result['author'] = news_article['author']
-
-            news_result['title'] = news_article['title']
-            news_result['content'] = news_article['content']
-            news_result['published_at'] = \
-                datetime.strptime(news_article['publishedAt'], '%Y-%m-%dT%H:%M:%SZ').strftime("%Y%m%d%H%M%S")
-            news_result['abstract'] = news_article['description']
-
-            parsed_results.append(news_result)
-
-        return parsed_results
 
 

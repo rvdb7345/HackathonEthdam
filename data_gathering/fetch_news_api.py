@@ -7,7 +7,7 @@ import our_secrets
 def fetch_news_api()->Dict:
     """Fect data from newsapi."""
     newsapi = NewsApiClient(api_key=our_secrets.news_api)
-    sources = ['coindesk.com', 'cointelegraph.com']
+    sources = ['coindesk.com', 'cointelegraph.com','']
     data=[]
     
     # Get today's date
@@ -21,13 +21,13 @@ def fetch_news_api()->Dict:
     today_date = today.strftime('%Y-%m-%d')
     
     for source in sources:
-        all_articles = newsapi.get_everything(
+        all_articles = newsapi.get_everything(q='crypto',
                                             domains=source,
                                             from_param=one_month_ago_date,
                                             to=today_date,
                                             language='en',
                                             sort_by='relevancy',
-                                            page=3)
+                                            page=2)
         data.extend(all_articles['articles'])
     return data
 

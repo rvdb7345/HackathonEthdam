@@ -5,6 +5,7 @@ from data_gathering.fetch_newsdata import format_newsdata_url
 from data_gathering.fetch_cryptopanic import format_cryptopanic_url
 from data_gathering.fetch_news_api import fetch_news_api
 from data_gathering.fetch_api import fetch_api
+from data_gathering.fetch_googlenews import fetch_googlenews
 from data_parsing.response_parsing import ParseApiResponse
 
 def gather_cryptopanic_data(url_formatter, url_settings):
@@ -43,7 +44,8 @@ def generate_news_overview(now):
     news_apis = {
         'cryptopanic': (format_cryptopanic_url, {}),
         'newsdata': (format_newsdata_url, {}),
-        'news_api': (fetch_news_api, {})
+        'news_api': (fetch_news_api, {}),
+        'google_api': (fetch_googlenews, {})
         
     }
 
@@ -59,6 +61,8 @@ def generate_news_overview(now):
             api_results = gather_cryptopanic_data(url_formatter, url_settings)
         elif api_name == 'newsdata':
             api_results = gather_newsdata_data(url_formatter, url_settings)
+        elif api_name == 'google_api':
+            api_results == fetch_googlenews()
 
         store_news_response(api_results, f'{now}_original_' + api_name)
 
