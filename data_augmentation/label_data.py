@@ -15,7 +15,6 @@ def check_matching_word(row, tickers_list:pd.DataFrame):
 def label_data(df:pd.DataFrame,labels:pd.DataFrame):
     """Attributes a ticker to a newspaper."""
     df['tickers'] = df.apply(lambda row: check_matching_word(row, labels), axis=1)
-    print(df['tickers'])
 
     
     
