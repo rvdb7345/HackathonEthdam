@@ -4,7 +4,7 @@ Script for all ChatGPT prompting functions.
 
 # Imports
 import openai
-import secrets
+import our_secrets
 
 
 class openAI:
