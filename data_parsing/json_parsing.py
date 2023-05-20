@@ -6,7 +6,7 @@ def convert_json_to_rds(json_data):
 
     return rds_news
 
-def convert_to_markdown(json_data,convert_dates=False):
+def convert_json_to_markdown(json_data,convert_dates=False):
     """Convert data to markdown format for beau."""
     if isinstance(json_data,pd.DataFrame):
         rds_news = json_data

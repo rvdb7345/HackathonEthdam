@@ -4,7 +4,6 @@ create the newsletter.
 """
 
 # Imports
-from data_parsing.json_parsing import convert_to_markdown
 
 
 def main():
@@ -12,14 +11,10 @@ def main():
     pass
 
     # Gather the newsdata
-    markdown_json = convert_to_markdown('data/20230520_combined.json')
+    pass
 
-    # Gather the dune chart
+    # Gather the dune charts
     pass
 
     # Create the output text file to be copied into Mirror
     pass
-
-
-if __name__ == '__main__':
-    main()
