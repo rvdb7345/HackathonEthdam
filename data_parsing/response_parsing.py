@@ -12,6 +12,9 @@ class ParseApiResponse():
             parsed_response = self.parse_newsdata(response)
         elif source == 'news_api':
             parsed_response = self.parse_news_api(response)
+        elif source == 'google_api':
+            parsed_response = self.parse_google_news_api(response)
+            
         else:
             assert False, f'Source not recognised: {source}'
 
@@ -46,6 +49,10 @@ class ParseApiResponse():
 
     def parse_news_api(self, response):
         return response
+    
+    def parse_google_news_api(self, response):
+        return response
+
 
 
 

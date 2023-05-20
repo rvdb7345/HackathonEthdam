@@ -3,6 +3,7 @@ from data_gathering.fetch_newsdata import format_newsdata_url
 from data_gathering.fetch_cryptopanic import format_cryptopanic_url
 from data_gathering.fetch_news_api import fetch_news_api
 from data_gathering.fetch_api import fetch_api
+from data_gathering.fetch_googlenews import fetch_googlenews
 from data_parsing.response_parsing import ParseApiResponse
 
 def store_news_response(news_reponse, source):
@@ -17,7 +18,8 @@ def generate_news_overview():
     news_apis = {
         'cryptopanic': (format_cryptopanic_url, {}),
         'newsdata': (format_newsdata_url, {}),
-        'news_api': (fetch_news_api, {})
+        'news_api': (fetch_news_api, {}),
+        'google_api': (fetch_googlenews, {})
         
     }
 
@@ -29,6 +31,8 @@ def generate_news_overview():
         # news api is a python package that doesn't require the response fetching
         if api_name == 'news_api':
             api_response = fetch_news_api()
+        elif api_name == 'google_api':
+            api_response == fetch_googlenews()
         else:
             api_response = fetch_api(url_formatter, url_settings)
 
