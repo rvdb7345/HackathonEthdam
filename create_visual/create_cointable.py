@@ -34,7 +34,6 @@ def create_cointable():
         markdown_table_swapped += "\n"
     return markdown_table_swapped
 
-
 if __name__ == "__main__":
     table = create_cointable()
     # Save the Markdown table as a .txt file
