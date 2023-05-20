@@ -160,5 +160,6 @@ cython_debug/
 #.idea/
 
 secrets.py
+.vscode/
 # ingore DS_store
 **/.DS_Store
