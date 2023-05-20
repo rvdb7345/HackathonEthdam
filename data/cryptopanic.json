@@ -2,6 +2,17 @@
     {
         "kind": "news",
         "publisher_domain": "bitcoinist.com",
+        "title": "Bitcoin In The Spotlight: US Presidential Candidate Advocates For Regulatory Measures",
+        "published_at": "20230520102420",
+        "api_url": "https://cryptopanic.com/news/18389779/Bitcoin-In-The-Spotlight-US-Presidential-Candidate-Advocates-For-Regulatory-Measures",
+        "currency_codes": [
+            "BTC"
+        ],
+        "language": "en"
+    },
+    {
+        "kind": "news",
+        "publisher_domain": "bitcoinist.com",
         "title": "CBDC: Canvas Executes First FX Transaction With Australian eAUD, As Trials Continue",
         "published_at": "20230520100454",
         "api_url": "https://cryptopanic.com/news/18389375/CBDC-Canvas-Executes-First-FX-Transaction-With-Australian-eAUD-As-Trials-Continue",
@@ -192,14 +203,6 @@
             "BTC",
             "FTT"
         ],
-        "language": "en"
-    },
-    {
-        "kind": "news",
-        "publisher_domain": "cointelegraph.com",
-        "title": "Ledger co-founder clarifies \u2018there is no backdoor\u2019 in \u2018Recover\u2019 firmware update",
-        "published_at": "20230520060100",
-        "api_url": "https://cryptopanic.com/news/18384491/Ledger-co-founder-clarifies-there-is-no-backdoor-in-Recover-firmware-update",
         "language": "en"
     }
 ]
