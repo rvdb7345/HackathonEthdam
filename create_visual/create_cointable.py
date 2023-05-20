@@ -10,7 +10,7 @@ def create_cointable():
     for _, row in df.head(3).iterrows():
         markdown_table += "| " + " | ".join(str(cell) for cell in row) + " |\n"
 
-    # Swap columns and rows and highlight percentage change with adjusted font size
+    # Swap columns and rows
     markdown_table_swapped = "|               | "
     markdown_table_swapped += " | ".join(df['Cryptocurrency'].head(3)) + " |\n"
     markdown_table_swapped += "|-------------- |"
@@ -20,16 +20,7 @@ def create_cointable():
         for _, row in df.head(3).iterrows():
             cell = str(row[col_name])
             if col_name == 'Percentage Change':
-                if row[col_name] > 0:
-                    cell = "+{:.2f}".format(row[col_name])
-                    cell = "<sub>" + cell + "</sub>"  # Adjusted font size for positive percentage change
-                    cell = "\033[32m" + cell + "\033[0m"  # Green color for positive percentage change
-                elif row[col_name] < 0:
-                    cell = "{:.2f}".format(row[col_name])
-                    cell = "<sub>" + cell + "</sub>"  # Adjusted font size for negative percentage change
-                    cell = "\033[31m" + cell + "\033[0m"  # Red color for negative percentage change
-                else:
-                    cell = "{:.2f}".format(row[col_name])
+                cell = "{:.2f}".format(row[col_name])
             markdown_table_swapped += cell + " | "
         markdown_table_swapped += "\n"
     return markdown_table_swapped
@@ -39,3 +30,4 @@ if __name__ == "__main__":
     # Save the Markdown table as a .txt file
     with open('create_visual/table.txt', 'w') as file:
         file.write(table)
+    print('Created table')
