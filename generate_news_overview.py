@@ -81,6 +81,7 @@ def generate_news_overview(now):
     # store the full out
     store_news_response(news_outputs, f'{now}_individual_sources')
     store_news_response(aggregated_news, f'{now}_combined')
+    return aggregated_news
 
 
 
