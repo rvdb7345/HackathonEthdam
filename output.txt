@@ -1,6 +1,6 @@
 ## Weekly Market Overview
 
-table top ticker movers
+markdown table top ticker movers
 
 https://dune.com/embeds/1637305/2719869?display=iframe
 
