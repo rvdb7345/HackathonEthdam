@@ -16,7 +16,8 @@ def convert_json_to_markdown(json_data, convert_dates=False):
         rds_news = convert_json_to_rds(json_data)
 
     rds_news.columns = rds_news.columns.str.replace("publisher_domain", "hyperlink")
-    samples = rds_news[["title", "hyperlink", "keywords", "content"]].sample(n=3)
+    rds_news['keywords'].fillna('algorithmic_keywords')
+    samples = rds_news[["title", "hyperlink", "keywords", "content"]]
     samples.fillna("", inplace=True)
     data = []
     for index, row in samples.iterrows():

@@ -25,6 +25,7 @@ class CryptoChronicles:
         aggregated_news = generate_news_overview(now)
         # Get the data as rds and filter english language only
         df = pd.DataFrame(aggregated_news)
+        df = df[df['language'].isin(['english', 'en'])]
         # return the last 7 days
         df = grouping_news_article_per_week(df)
 
