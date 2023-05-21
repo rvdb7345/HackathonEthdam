@@ -55,7 +55,22 @@ class CryptoChronicles:
 
     def create_final_output(self):
         # Create the output text file to be copied into Mirror
-        pass
+        # Reading data from file1
+        with open('final_article.txt') as fp:
+            articles = fp.read()
+
+        # Reading data from file2
+        with open('final_charts.txt') as fp:
+            charts = fp.read()
+
+        # Merging 2 files
+        # To add the data of file2
+        # from next line
+        charts += "\n"
+        charts += articles
+
+        with open('to_copy_to_mirror.txt', 'w') as fp:
+            fp.write(charts)
 
     def weekly_update(self, gather_new_metrics=True):
         # Function to do a full run, to be executed weekly
@@ -65,7 +80,7 @@ class CryptoChronicles:
             self.gather_high_metrics()
             self.gather_dune_charts()
 
-        self.format_data()
+        self.format_data(selected_articles_df)
 
         self.create_final_output()
 
