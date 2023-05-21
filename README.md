@@ -1,23 +1,12 @@
-# HackathonEthdam
+Weekly automated newsletter on web 3 topics.
 
-# Dune API
-https://dune.com/docs/api/api-reference/
+Integrated Dune charts chosen by relevant news articles
 
-# Dune embed docs --> mirror
-https://dune.com/docs/app/embeds/?h=embed#web-pages
+Used sources:
+- Dune (https://dune.com/hildobby)
+- Coingecko (https://www.coingecko.com/nl)
+- cryptopanic (https://cryptopanic.com/)
+- googlenews (https://news.google.com/home)
+- newsdata (https://newsdata.io/)
 
-Dune chart embed links:
-- Weekly eth gas: https://dune.com/embeds/1928069/3180711
-- Daily NFT Volume: https://dune.com/embeds/2492526/4100610
-
-# Mirror How-to
-https://support.mirror.xyz/hc/en-us/articles/6847458952852-Step-by-step-Editor-guide
-
-# News API's 
-https://newsdata.io/crypto-news-api 
-
-# Our GMail account
-cryptochrons@gmail.com
-
-# Development Mural
-https://app.mural.co/invigtation/mural/nlda3526/1684569266036?sender=ufa2789e4752e7d84ea9b7510&key=e911a978-5d5a-48f4-a715-cf7318c22c50
+by Louis, Dobby, Robin, Beau & Hannes
