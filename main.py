@@ -31,6 +31,7 @@ class CryptoChronicles:
     def select_articles(self, news_last_week):
         forbidden_subjects = [
             'best_crypto',
+            'best_2023'
         ]
 
         articles_to_publish = select_representative_documents(news_last_week,
