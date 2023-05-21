@@ -18,7 +18,7 @@ def article_json_to_markdown(all_articles):
         with open("final_article.txt", "a") as file:
             # Clean out stupid characters
             article_title = re.sub(pattern, "", article["title"])
-            title_string = "+ {}[".format(article_title)
+            title_string = "+ ##### {}[".format(article_title)
             for id, link in enumerate(article["hyperlink"]):
                 title_string += "[{}]({}),".format(id, link)
 
@@ -26,5 +26,5 @@ def article_json_to_markdown(all_articles):
 
             # Write content to the file
             file.write(title_string[:-1] + "]\n")
-            file.write("    + " + article_keywords + "\n")
+            file.write("    + *" + article_keywords + "* \n")
             file.write("    + " + article["content"] + "\n")
