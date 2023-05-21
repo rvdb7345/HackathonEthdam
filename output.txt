@@ -1,9 +1,5 @@
 ## Weekly Market Overview
 
-markdown table top ticker movers
-
-https://dune.com/embeds/1637305/2719869?display=iframe
-
 Graph 1: Dex volume
 https://dune.com/embeds/2492610/4100776?display=iframe
 
@@ -15,12 +11,3 @@ https://dune.com/embeds/419712/800264?display=iframe
 
 Graph 4: NFT volume
 https://dune.com/embeds/1933143/3188646?display=iframe
-
-
-news 
-- 
-- 
--
-
-
-
