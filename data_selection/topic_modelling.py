@@ -76,5 +76,5 @@ def get_topics_out(docs, plot=False):
 
     representative_docs = model.get_representative_docs()
 
-    return representative_docs
+    return representative_docs, model.get_topic_info()['Name'].to_list()
 

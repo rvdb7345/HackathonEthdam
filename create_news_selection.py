@@ -189,21 +189,22 @@ def deprecated_select_representative_documents(df, num_clusters=3, num_represent
     return selected_documents
 
 
-def select_representative_documents(news_last_week, num_articles_to_publish, plot_clusters=False):
+def select_representative_documents(news_last_week, forbidden_subjects, num_articles_to_publish, plot_clusters=False):
     print(f'We have {len(news_last_week)} from last week.')
 
     # Example usage
-    news_last_week.dropna(subset=['content', 'keywords'], inplace=True)
+    # news_last_week.dropna(subset=['', 'keywords'], inplace=True)
 
     # representative_documents = select_representative_documents(news_last_week, num_clusters=5, num_representatives=1)
     # for doc in representative_documents:
     #     print(doc)
 
-    representative_docs = get_topics_out((news_last_week['title']).tolist(), plot=plot_clusters)
+    representative_docs, topic_names = get_topics_out((news_last_week['title']).tolist(), plot=plot_clusters)
 
     articles_to_publish = pd.DataFrame()
     for subject_idx, representative_articles in representative_docs.items():
-        if not subject_idx == -1 and not subject_idx > num_articles_to_publish + 1:
+        if not subject_idx == -1 and not subject_idx > num_articles_to_publish + 1 and \
+                not any([forbidden_subject in topic_names[subject_idx + 1] for forbidden_subject in forbidden_subjects]):
             article_to_publish = news_last_week.loc[news_last_week['title'] == representative_articles[0], :]
             articles_to_publish = pd.concat([articles_to_publish, article_to_publish])
 
@@ -213,7 +214,12 @@ if __name__ == '__main__':
     formatted_news = pd.read_csv('data/20230520_combined.csv', engine='python')
     news_last_week = grouping_news_article_per_week(formatted_news)
 
+    forbidden_subjects = [
+        'best_crypto',
+    ]
+
     articles_to_publish = select_representative_documents(news_last_week,
+                                                          forbidden_subjects=forbidden_subjects,
                                                           num_articles_to_publish=10,
                                                           plot_clusters=False)
     print(articles_to_publish)
