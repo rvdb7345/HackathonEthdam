@@ -25,9 +25,8 @@ class CryptoChronicles:
         markdown_json = convert_json_to_markdown("data/20230520_combined.json")
         article_json_to_markdown(markdown_json)
 
-    def gather_dune_charts(self):
-        # Gather the dune charts
-        pass
+    # Gather the dune charts
+    pass
 
     def create_final_output(self):
         # Create the output text file to be copied into Mirror
