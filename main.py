@@ -9,6 +9,7 @@ from data_parsing.json_parsing import convert_json_to_markdown,convert_json_to_r
 from json_to_markdown import article_json_to_markdown
 from generate_news_overview import generate_news_overview
 from data_augmentation.classifying_data import grouping_news_article_per_week
+from create_visual.create_cointable_image import create_cointable_image
 from  datetime import datetime
 import pandas as pd
 
@@ -43,7 +44,7 @@ class CryptoChronicles:
 
     def gather_high_metrics(self):
         # Gather the high level metrics
-        pass
+        create_cointable_image()
 
     def format_data(self,df:pd.DataFrame)->None:
         # Turn the gathered data to a nice format
