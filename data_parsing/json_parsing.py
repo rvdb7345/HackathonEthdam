@@ -4,7 +4,7 @@ import pandas as pd
 
 def convert_json_to_rds(json_data):
     rds_news = pd.read_json(json_data, convert_dates=False)
-    rds_news = rds_news[rds_news['language']=='english']
+    rds_news = rds_news[rds_news['language']=='english' or rds_news['language']=='en']
     return rds_news
 
 
