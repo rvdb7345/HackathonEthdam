@@ -6,8 +6,7 @@ Crypto Chronicles is a weekly AI-generated newsletter on web3 topics. It combine
 
 The pipeline pulls news feeds from multiple APIs and uses topic modelling to make sure every main topic of last week is covered. It then combines this information with Dune to give you an overview of how the Crypto Environment is evolving on-chain.
 
-
-Integrated Dune charts chosen by relevant news articles
+We found that the existing newsletters are lacking live data and open source transparency. Therefore we integrated Dune charts chosen by relevant news articles
 
 Used sources:
 - Dune (https://dune.com/hildobby)
@@ -18,5 +17,5 @@ Used sources:
 
 by Louis, Robin, Beau & Hannes
 
-##Acknowledgements
+## Acknowledgements
 Shout out to @hildobby for the great charts and assistence on project.
