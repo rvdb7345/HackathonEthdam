@@ -3,7 +3,7 @@ import pandas as pd
 
 def convert_json_to_rds(json_data):
     rds_news = pd.read_json(json_data, convert_dates=False)
-
+    rds_news = rds_news[rds_news['language']=='english']
     return rds_news
 
 def convert_json_to_markdown(json_data,convert_dates=False):
