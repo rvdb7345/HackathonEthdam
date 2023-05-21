@@ -1,6 +1,6 @@
 import pandas as pd
 
-def create_cointable():
+def create_cointable_markdown():
 
     df = pd.read_csv('data/top10coins_data.csv')
 
@@ -26,7 +26,7 @@ def create_cointable():
     return markdown_table_swapped
 
 if __name__ == "__main__":
-    table = create_cointable()
+    table = create_cointable_markdown()
     # Save the Markdown table as a .txt file
     with open('create_visual/table.txt', 'w') as file:
         file.write(table)
