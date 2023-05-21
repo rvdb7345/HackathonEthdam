@@ -33,6 +33,16 @@ class CryptoChronicles:
         # Create the output text file to be copied into Mirror
         pass
 
+    def weekly_update(self, gather_new_metrics=True):
+        # Function to do a full run, to be executed weekly
+        if gather_new_metrics:
+            self.gather_article_data()
+            self.gather_high_metrics()
+            self.gather_dune_charts()
+
+        self.format_data()
+        self.create_final_output()
+
 
 # if __name__ == "__main__":
 #     main()
