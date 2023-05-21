@@ -12,7 +12,8 @@ from data_augmentation.classifying_data import grouping_news_article_per_week
 from create_visual.create_cointable_image import create_cointable_image
 from datetime import datetime
 import pandas as pd
-
+from tqdm import tqdm
+from data_augmentation.keyword_extraction import KeywordGenerator
 
 class CryptoChronicles:
     def __init__(self):
@@ -38,7 +39,6 @@ class CryptoChronicles:
             num_articles_to_publish=10,
             plot_clusters=False,
         )
-        print(articles_to_publish)
         return articles_to_publish
 
     def gather_high_metrics(self):
@@ -77,6 +77,16 @@ class CryptoChronicles:
         if gather_new_metrics:
             all_articles_df = self.gather_article_data()
             selected_articles_df = self.select_articles(all_articles_df)
+            
+            keyword_generator = KeywordGenerator()
+
+            for idx, row in tqdm(selected_articles_df.iterrows(), total=len(selected_articles_df)):
+                if not pd.isna(row['content']):
+                    keywords = keyword_generator.create_keywords_for_doc(row['content'])
+                    selected_articles_df.loc[idx, 'algorithmic_keywords'] = str([keyword[0] for keyword in keywords])
+            
+            print(f"{selected_articles_df.algorithmic_keywords=}")
+
             self.gather_high_metrics()
             self.gather_dune_charts()
 
@@ -87,4 +97,4 @@ class CryptoChronicles:
 
 if __name__ == "__main__":
     crypchro = CryptoChronicles()
-    crypchro.gather_article_data()
+    crypchro.weekly_update()
