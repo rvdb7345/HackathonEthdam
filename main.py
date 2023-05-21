@@ -4,7 +4,7 @@ create the newsletter.
 """
 
 # Imports
-from data_parsing.json_parsing import convert_to_markdown
+from data_parsing.json_parsing import convert_json_to_markdown
 from json_to_markdown import article_json_to_markdown
 
 
@@ -13,8 +13,7 @@ def main():
     pass
 
     # Gather the newsdata
-    markdown_json = convert_to_markdown("data/20230520_combined.json")
-    print(markdown_json)
+    markdown_json = convert_json_to_markdown("data/20230520_combined.json")
     article_json_to_markdown(markdown_json)
 
     # Gather the dune chart
