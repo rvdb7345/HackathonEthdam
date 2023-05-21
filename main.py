@@ -27,7 +27,9 @@ class CryptoChronicles:
 
     def gather_dune_charts(self):
         # Gather the dune charts
-        pass
+        relevant_topics = get_topics_from_articles(articles)
+        selected_charts = get_charts(relevant_topics)
+        create_chart_file(selected_charts)
 
     def create_final_output(self):
         # Create the output text file to be copied into Mirror
