@@ -4,6 +4,7 @@ create the newsletter.
 """
 
 # Imports
+from create_news_selection import select_representative_documents
 from data_parsing.json_parsing import convert_json_to_markdown,convert_json_to_rds
 from json_to_markdown import article_json_to_markdown
 from generate_news_overview import generate_news_overview
@@ -23,7 +24,21 @@ class CryptoChronicles:
         df = pd.DataFrame(aggregated_news)
         # return the last 7 days
         df = grouping_news_article_per_week(df)
+
         return df
+
+
+    def select_articles(self, news_last_week):
+        forbidden_subjects = [
+            'best_crypto',
+        ]
+
+        articles_to_publish = select_representative_documents(news_last_week,
+                                                              forbidden_subjects=forbidden_subjects,
+                                                              num_articles_to_publish=10,
+                                                              plot_clusters=False)
+
+        return articles_to_publish
 
     def gather_high_metrics(self):
         # Gather the high level metrics
@@ -44,11 +59,13 @@ class CryptoChronicles:
     def weekly_update(self, gather_new_metrics=True):
         # Function to do a full run, to be executed weekly
         if gather_new_metrics:
-            self.gather_article_data()
+            all_articles_df = self.gather_article_data()
+            selected_articles_df = self.select_articles(all_articles_df)
             self.gather_high_metrics()
             self.gather_dune_charts()
 
         self.format_data()
+
         self.create_final_output()
 
 
